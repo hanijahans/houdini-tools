@@ -1,0 +1,24 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Houdini / caches / junk
+*.lock
+*.tmp
+*.hip~*
+*.backup
+*.bgeo.sc
+*.sim
+*.pic
+*.rat
+*.ipr
+
+# Build/zip artifacts
+dist/
+*.zip

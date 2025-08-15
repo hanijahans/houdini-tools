@@ -1,0 +1,5013 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shelfDocument>
+  <!-- This file contains definitions of shelves, toolbars, and tools.
+ It should not be hand-edited when it is being used by the application.
+ Note, that two definitions of the same element are not allowed in
+ a single file. -->
+
+  <shelfSet name="shelf_set_1" label="Create and Refine">
+    <memberToolshelf name="hjd"/>
+    <memberToolshelf name="create"/>
+    <memberToolshelf name="modify"/>
+    <memberToolshelf name="model"/>
+    <memberToolshelf name="polygon"/>
+    <memberToolshelf name="deform"/>
+    <memberToolshelf name="texture"/>
+    <memberToolshelf name="rigging"/>
+    <memberToolshelf name="characters"/>
+    <memberToolshelf name="constraints"/>
+    <memberToolshelf name="groomtools"/>
+    <memberToolshelf name="guidemodify"/>
+    <memberToolshelf name="terrainfx"/>
+    <memberToolshelf name="simplefx"/>
+    <memberToolshelf name="volume"/>
+    <memberToolshelf name="houdiniengine"/>
+  </shelfSet>
+
+  <toolshelf name="modify" label="Modify">
+    <memberTool name="object_combine"/>
+    <memberTool name="geometry_extract"/>
+    <memberTool name="geometry_mirror"/>
+    <memberTool name="geometry_copy"/>
+    <memberTool name="geometry_duplicate"/>
+    <memberTool name="tool_align"/>
+    <memberTool name="object_matchtransform"/>
+    <memberTool name="object_centerpivot"/>
+    <memberTool name="object_movetopivot"/>
+    <memberTool name="object_freeze"/>
+    <memberTool name="object_bakeanimation"/>
+    <memberTool name="generic_delete"/>
+    <memberTool name="generic_hide"/>
+    <memberTool name="object_parent"/>
+  </toolshelf>
+
+  <toolshelf name="hjd" label="HJD">
+    <memberTool name="finalization_checklist"/>
+    <memberTool name="viewport_screenshot"/>
+  </toolshelf>
+
+  <toolshelf name="houdiniengine" label="Houdini Engine">
+    <memberTool name="hengine_plugin_installer"/>
+    <memberTool name="sop_collision_geo"/>
+    <memberTool name="sop_unity_material"/>
+    <memberTool name="sop_unreal_material"/>
+    <memberTool name="sop_maya_mayahardedge_to_attribute"/>
+    <memberTool name="sop_maya_mayahardedge_to_group"/>
+  </toolshelf>
+
+  <toolshelf name="polygon" label="Polygon">
+    <memberTool name="sop_topobuild"/>
+    <memberTool name="sop_polydraw"/>
+    <memberTool name="sop_curve::2.0_polygon"/>
+    <memberTool name="sop_polyextrude::2.0"/>
+    <memberTool name="sop_polybevel::3.0"/>
+    <memberTool name="sop_polybridge"/>
+    <memberTool name="sop_polysplit::2.0"/>
+    <memberTool name="sop_edgeloop"/>
+    <memberTool name="sop_polyreduce::2.0"/>
+    <memberTool name="sop_polyfill"/>
+    <memberTool name="sop_polyexpand2d"/>
+    <memberTool name="sop_edgecollapse"/>
+    <memberTool name="sop_edgecusp"/>
+    <memberTool name="sop_edgeflip"/>
+    <memberTool name="sop_edgedivide"/>
+    <memberTool name="sop_dissolve::2.0"/>
+    <memberTool name="geometry_knife"/>
+    <memberTool name="sop_clip::2.0"/>
+    <memberTool name="sop_subdivide"/>
+    <memberTool name="sop_facet"/>
+    <memberTool name="sop_pointweld"/>
+    <memberTool name="sop_fuse::2.0"/>
+    <memberTool name="geometry_snap"/>
+    <memberTool name="sop_smooth::2.0"/>
+    <memberTool name="geometry_curvefromedges"/>
+    <memberTool name="sop_polyhinge"/>
+  </toolshelf>
+
+  <toolshelf name="simplefx" label="Simple FX">
+    <memberTool name="geometry_vellumsimplecloth"/>
+    <memberTool name="geometry_vellumsimplesoftbody"/>
+    <memberTool name="geometry_rbdsimplefracture"/>
+    <memberTool name="geometry_rbdsimpleguided"/>
+    <memberTool name="geometry_muzzleflash"/>
+    <memberTool name="geometry_pyrosimplebillowysmoke"/>
+    <memberTool name="geometry_spyro_gpuburst"/>
+    <memberTool name="geometry_spyro_gputorch"/>
+    <memberTool name="geometry_pyrosimplefireball"/>
+    <memberTool name="geometry_spyro_airexplosion"/>
+    <memberTool name="geometry_spyro_groundexplosion"/>
+    <memberTool name="geometry_spyro_shockwave"/>
+    <memberTool name="geometry_spyro_campfire"/>
+    <memberTool name="geometry_pyrosimplefirespread"/>
+  </toolshelf>
+
+  <toolshelf name="terrainfx" label="Terrain FX">
+    <memberTool name="terrain_hills"/>
+    <memberTool name="terrain_mountain"/>
+    <memberTool name="terrain_valley"/>
+    <memberTool name="terrain_moonscape"/>
+    <memberTool name="terrain_islands"/>
+    <memberTool name="terrain_canyon"/>
+    <memberTool name="terrain_dunes"/>
+  </toolshelf>
+
+  <toolshelf name="deform" label="Deform">
+    <memberTool name="geometry_twist"/>
+    <memberTool name="sop_bend"/>
+    <memberTool name="geometry_lineartaper"/>
+    <memberTool name="geometry_squashstretch"/>
+    <memberTool name="sop_bulge"/>
+    <memberTool name="sop_lattice"/>
+    <memberTool name="sop_fractal"/>
+    <memberTool name="geometry_mountain"/>
+    <memberTool name="geometry_waves"/>
+    <memberTool name="sop_ripple::2.0"/>
+    <memberTool name="object_morph"/>
+  </toolshelf>
+
+  <toolshelf name="volume" label="Volume">
+    <memberTool name="geometry_fogvolume"/>
+    <memberTool name="geometry_vdbfrompolygons"/>
+    <memberTool name="geometry_vdbfromparticles"/>
+    <memberTool name="geometry_paintcolorvolume"/>
+    <memberTool name="geometry_paintfogvolume"/>
+    <memberTool name="geometry_paintsdfvolume"/>
+    <memberTool name="geometry_volumerasterizepoints"/>
+    <memberTool name="geometry_volumerasterizeparticles"/>
+    <memberTool name="geometry_volumerasterizecurve"/>
+    <memberTool name="geometry_convertvdb"/>
+  </toolshelf>
+
+  <toolshelf name="model" label="Model">
+    <memberTool name="sop_revolve::2.0"/>
+    <memberTool name="geometry_loft"/>
+    <memberTool name="sop_skin"/>
+    <memberTool name="sop_rails"/>
+    <memberTool name="sop_sweep::2.0"/>
+    <memberTool name="sop_creep"/>
+    <memberTool name="sop_ray"/>
+    <memberTool name="sop_boolean::2.0"/>
+    <memberTool name="geometry_voronoifracture"/>
+    <memberTool name="sop_topobuild"/>
+    <memberTool name="sop_carve"/>
+    <memberTool name="sop_convert"/>
+    <memberTool name="sop_refine"/>
+    <memberTool name="sop_reverse"/>
+    <memberTool name="sop_sculpt::2.0"/>
+    <memberTool name="sop_scatter::2.0"/>
+    <memberTool name="sop_clusterpoints"/>
+    <memberTool name="geo_group"/>
+    <memberTool name="sop_edit"/>
+    <memberTool name="sop_visibility"/>
+  </toolshelf>
+
+  <toolshelf name="groomtools" label="Hair Utils">
+    <memberTool name="object_groom_addfur"/>
+    <memberTool name="object_groom_guidegroomempty"/>
+    <memberTool name="object_groom_guidegroom"/>
+    <memberTool name="object_groom_groommerge"/>
+    <memberTool name="object_groom_animateguides"/>
+    <memberTool name="object_groom_simguides"/>
+    <memberTool name="object_groom_hairgen"/>
+    <memberTool name="object_groom_isolateparts"/>
+    <memberTool name="object_groom_togglehairdisplay"/>
+    <memberTool name="object_groom_haircardgen"/>
+    <memberTool name="object_groom_haircardtexture"/>
+  </toolshelf>
+
+  <toolshelf name="guidemodify" label="Guide Process">
+    <memberTool name="sop_groom_guideinit"/>
+    <memberTool name="sop_groom_curveadvect"/>
+    <memberTool name="object_groom"/>
+    <memberTool name="sop_groom_reguide"/>
+    <memberTool name="sop_groom_guideprocess_setdir"/>
+    <memberTool name="sop_groom_guideprocess_length"/>
+    <memberTool name="sop_groom_guideprocess_lift"/>
+    <memberTool name="sop_groom_guideprocess_straighten"/>
+    <memberTool name="sop_groom_guideprocess_smooth"/>
+    <memberTool name="sop_groom_guideprocess_frizz"/>
+    <memberTool name="sop_groom_guideprocess_bend"/>
+    <memberTool name="sop_groom_hairclump"/>
+    <memberTool name="sop_groom_drawpartingline"/>
+    <memberTool name="sop_groom_whitehair"/>
+  </toolshelf>
+
+  <toolshelf name="characters" label="Characters">
+    <memberTool name="object_simplebiped"/>
+    <memberTool name="object_simplefemale"/>
+    <memberTool name="object_simplemale"/>
+    <memberTool name="object_mocapbiped1"/>
+    <memberTool name="object_mocapbiped2"/>
+    <memberTool name="object_mocapbiped3"/>
+    <memberTool name="object_mocapbiped3"/>
+  </toolshelf>
+
+  <toolshelf name="rigging" label="Rigging">
+    <memberTool name="object_bones"/>
+    <memberTool name="object_bonesfromcurve"/>
+    <memberTool name="object_pose"/>
+    <memberTool name="rigging_ikfromobjects"/>
+    <memberTool name="rigging_ikfrombones"/>
+    <memberTool name="object_capturegeometry"/>
+    <memberTool name="object_editcaptureregion"/>
+    <memberTool name="object_editcaptureweight"/>
+    <memberTool name="object_editcaptureblend"/>
+    <memberTool name="object_mirrorcapture"/>
+    <memberTool name="object_paintcapturelayer"/>
+    <memberTool name="object_aligncapturepose"/>
+    <memberTool name="sop_deltamush"/>
+    <memberTool name="sop_comb"/>
+  </toolshelf>
+
+  <toolshelf name="texture" label="Texture">
+    <memberTool name="sop_uvproject"/>
+    <memberTool name="sop_uvedit"/>
+    <memberTool name="sop_uvbrush"/>
+    <memberTool name="sop_uvfuse"/>
+    <memberTool name="sop_uvflatten::3.0"/>
+    <memberTool name="sop_uvpelt::2.0"/>
+    <memberTool name="sop_texture"/>
+    <memberTool name="sop_uvtransform::2.0"/>
+    <memberTool name="sop_uvunwrap"/>
+    <memberTool name="sop_uvquickshade"/>
+    <memberTool name="sop_uvsmooth"/>
+    <memberTool name="sop_uvlayout::3.0"/>
+    <memberTool name="generic_cleartexcache"/>
+  </toolshelf>
+
+  <toolshelf name="constraints" label="Constraints">
+    <memberTool name="object_constraintparentblend"/>
+    <memberTool name="object_constraintblend"/>
+    <memberTool name="object_constraintlookat"/>
+    <memberTool name="object_constraintpath"/>
+    <memberTool name="object_constraintpoints"/>
+    <memberTool name="object_constraintsurface"/>
+    <memberTool name="object_constrainttransform"/>
+    <memberTool name="object_blendpose"/>
+    <memberTool name="object_lagobject"/>
+    <memberTool name="object_jiggleobject"/>
+    <memberTool name="object_constraintgamepad"/>
+    <memberTool name="sop_constraintnetwork"/>
+    <memberTool name="object_constrainttoggle"/>
+    <memberTool name="object_constraintbake"/>
+    <memberTool name="object_constraintdelete"/>
+  </toolshelf>
+
+  <toolshelf name="create" label="Create">
+    <memberTool name="sop_box"/>
+    <memberTool name="geometry_sphere"/>
+    <memberTool name="geometry_tube"/>
+    <memberTool name="sop_torus"/>
+    <memberTool name="sop_grid"/>
+    <memberTool name="object_null"/>
+    <memberTool name="geometry_line"/>
+    <memberTool name="geometry_circle"/>
+    <memberTool name="sop_curve::2.0_bezier"/>
+    <memberTool name="geometry_drawcurve"/>
+    <memberTool name="object_path"/>
+    <memberTool name="geometry_spraypaint"/>
+    <memberTool name="sop_font"/>
+    <memberTool name="geometry_platonic"/>
+    <memberTool name="sop_lsystem"/>
+    <memberTool name="sop_metaball"/>
+    <memberTool name="geometry_file"/>
+    <memberTool name="sop_spiral"/>
+    <memberTool name="geometry_helix"/>
+    <memberTool name="quickshapes"/>
+  </toolshelf>
+
+  <tool name="sop_reverse" label="Reverse" icon="SOP_reverse">
+    <helpURL>operator:Sop/reverse</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/reverse</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Polygons</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.genericTool(kwargs, 'reverse', allow_obj_sel=False)]]></script>
+  </tool>
+
+  <tool name="sop_polyfill" label="PolyFill" icon="SOP_polyfill">
+    <helpURL>operator:Sop/polyfill</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/polyfill</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Polygons</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.genericTool(kwargs, 'polyfill')]]></script>
+  </tool>
+
+  <tool name="sop_convert" label="Convert" icon="SOP_convert">
+    <helpURL>operator:Sop/convert</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/convert</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Convert</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.genericTool(kwargs, 'convert', allow_obj_sel=False)]]></script>
+  </tool>
+
+  <tool name="sop_uvquickshade" label="UV Quick Shade" icon="SOP_uvquickshade">
+    <helpURL>operator:Sop/uvquickshade</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/uvquickshade</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Texturing</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.genericTool(kwargs, 'uvquickshade', allow_obj_sel=False)]]></script>
+  </tool>
+
+  <tool name="sop_edgecusp" label="Edge Cusp" icon="SOP_edgecusp">
+    <helpURL>operator:Sop/edgecusp</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/edgecusp</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Edges</toolSubmenu>
+    <toolSubmenu>Geometry/Polygons</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.genericTool(kwargs, 'edgecusp', allow_obj_sel=False)]]></script>
+  </tool>
+
+  <tool name="sop_edgedivide" label="Edge Divide" icon="SOP_edgedivide">
+    <helpURL>operator:Sop/edgedivide</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/edgedivide</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Edges</toolSubmenu>
+    <toolSubmenu>Geometry/Polygons</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.genericTool(kwargs, 'edgedivide', allow_obj_sel=False)]]></script>
+  </tool>
+
+  <tool name="sop_edgeflip" label="Edge Flip" icon="SOP_edgeflip">
+    <helpURL>operator:Sop/edgeflip</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/edgeflip</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Edges</toolSubmenu>
+    <toolSubmenu>Geometry/Polygons</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.genericTool(kwargs, 'edgeflip', allow_obj_sel=False)]]></script>
+  </tool>
+
+  <tool name="sop_ray" label="Ray" icon="SOP_ray">
+    <helpURL>operator:Sop/ray</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/ray</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Deform</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.genericTool(kwargs, 'ray')]]></script>
+  </tool>
+
+  <tool name="sop_fractal" label="Fractal" icon="SOP_fractal">
+    <helpURL>operator:Sop/fractal</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/fractal</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Deform</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+from soptoolutils import OrientInfo
+
+soptoolutils.genericTool(kwargs, 'fractal', orient=OrientInfo('dir'))]]></script>
+  </tool>
+
+  <tool name="sop_subdivide" label="Subdivide" icon="SOP_subdivide">
+    <helpURL>operator:Sop/subdivide</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/subdivide</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Polygons</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.genericTool(kwargs, 'subdivide')]]></script>
+  </tool>
+
+  <tool name="sop_refine" label="Refine" icon="SOP_refine">
+    <helpURL>operator:Sop/refine</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/refine</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/NURBS</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.genericTool(kwargs, 'refine', allow_obj_sel=False)]]></script>
+  </tool>
+
+  <tool name="sop_rails" label="Rails" icon="SOP_rails">
+    <helpURL>operator:Sop/rails</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/rails</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Polygons</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.genericTool(kwargs, 'rails')]]></script>
+  </tool>
+
+  <tool name="sop_font" label="Font" icon="SOP_font">
+    <helpURL>operator:Sop/font</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+      <contextNetType>LOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+      <contextNetType>LOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Primitive</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+kwargs['bbox'] = hou.BoundingBox(-1.877750039100647, -0.3700000047683716, 0.0, 1.8777501583099365, 0.3620000183582306, 0.0)
+soptoolutils.genericTool(kwargs, 'font')]]></script>
+  </tool>
+
+  <tool name="sop_polyreduce::2.0" label="PolyReduce" icon="SOP_polyreduce-2.0">
+    <helpURL>operator:Sop/polyreduce?version=2.0</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/polyreduce::2.0</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Polygons</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.genericTool(kwargs, 'polyreduce::2.0')]]></script>
+  </tool>
+
+  <tool name="sop_edgecollapse" label="Edge Collapse" icon="SOP_edgecollapse">
+    <helpURL>operator:Sop/edgecollapse</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/edgecollapse</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Edges</toolSubmenu>
+    <toolSubmenu>Geometry/Polygons</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.genericTool(kwargs, 'edgecollapse', allow_obj_sel=False)]]></script>
+  </tool>
+
+  <tool name="sop_visibility" label="Visibility" icon="SOP_visibility">
+    <helpURL>operator:Sop/visibility</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/visibility</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Attribute</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.genericTool(kwargs, 'visibility')]]></script>
+  </tool>
+
+  <tool name="sop_skin" label="Skin" icon="SOP_skin">
+    <helpURL>operator:Sop/skin</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/skin</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/NURBS</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.genericTool(kwargs, 'skin')]]></script>
+  </tool>
+
+  <tool name="sop_polyexpand2d" label="PolyExpand2D" icon="SOP_polyexpand2d">
+    <helpURL>operator:Sop/polyexpand2d</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/polyexpand2d</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Polygons</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.genericTool(kwargs, 'polyexpand2d')]]></script>
+  </tool>
+
+  <tool name="sop_carve" label="Carve" icon="SOP_carve">
+    <helpURL>operator:Sop/carve</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/carve</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/NURBS</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.genericTool(kwargs, 'carve')]]></script>
+  </tool>
+
+  <tool name="sop_creep" label="Creep" icon="SOP_creep">
+    <helpURL>operator:Sop/creep</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/creep</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/NURBS</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.genericTool(kwargs, 'creep')]]></script>
+  </tool>
+
+  <tool name="sop_sweep::2.0" label="Sweep" icon="SOP_sweep-2.0">
+    <helpURL>operator:Sop/sweep?version=2.0</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/sweep::2.0</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Polygons</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.genericTool(kwargs, 'sweep::2.0')]]></script>
+  </tool>
+
+  <tool name="sop_lsystem" label="L-System" icon="SOP_lsystem">
+    <helpURL>operator:Sop/lsystem</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+      <contextNetType>LOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+      <contextNetType>LOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Primitive</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+if hou.ui.orientationUpAxis() == hou.orientUpAxis.Z:
+    kwargs['bbox'] = hou.BoundingBox(-0.5059784650802612, -0.5457153916358948, 0.0, 0.39274096488952637, 0.39255478978157043, 0.9793723821640015)
+else:
+    kwargs['bbox'] = hou.BoundingBox(-0.5059784650802612, 0.0, -0.5457153916358948, 0.39274096488952637, 0.9793723821640015, 0.39255478978157043)
+lsystem = soptoolutils.genericTool(kwargs, 'lsystem')
+
+if hou.ui.orientationUpAxis() == hou.orientUpAxis.Z:
+    parm = lsystem.parm('premise')
+    if not lsystem.type().hasPermanentUserDefaults() and not parm.hasTemporaryDefaults():
+        parm.set('^(90)' + parm.evalAsString())]]></script>
+  </tool>
+
+  <tool name="sop_bulge" label="Bulge" icon="SOP_bulge">
+    <helpURL>operator:Sop/bulge</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/bulge</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Metaball</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.genericTool(kwargs, 'bulge')]]></script>
+  </tool>
+
+  <tool name="sop_dissolve::2.0" label="Dissolve" icon="SOP_dissolve-2.0">
+    <helpURL>operator:Sop/dissolve?version=2.0</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/dissolve::2.0</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.genericTool(kwargs, 'dissolve::2.0')]]></script>
+  </tool>
+
+  <tool name="sop_facet" label="Facet" icon="SOP_facet">
+    <helpURL>operator:Sop/facet</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/facet</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Polygons</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.genericTool(kwargs, 'facet')]]></script>
+  </tool>
+
+  <tool name="sop_scatter::2.0" label="Scatter" icon="SOP_scatter-2.0">
+    <helpURL>operator:Sop/scatter?version=2.0</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/scatter::2.0</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Copying</toolSubmenu>
+    <toolSubmenu>Geometry/Points</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.genericTool(kwargs, 'scatter::2.0')]]></script>
+  </tool>
+
+  <tool name="sop_uvlayout::3.0" label="UV Layout" icon="SOP_uvlayout">
+    <helpURL>operator:Sop/uvlayout?version=3.0</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/uvlayout::3.0</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Texturing/UV</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.customStateTool(kwargs, 'uvlayout::3.0')]]></script>
+  </tool>
+
+  <tool name="sop_edgeloop" label="Edge Loop" icon="SHELF_edgeloop">
+    <helpURL>operator:sop_state/edgeloop</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Polygons</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.customStateTool(kwargs, 'edgeloop')]]></script>
+  </tool>
+
+  <tool name="sop_polysplit::2.0" label="PolySplit" icon="SOP_polysplit">
+    <helpURL>operator:Sop/polysplit?version=2.0</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/polysplit::2.0</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Edges</toolSubmenu>
+    <toolSubmenu>Geometry/Polygons</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.customStateTool(kwargs, 'polysplit::2.0')]]></script>
+  </tool>
+
+  <tool name="sop_lattice" label="Lattice" icon="SOP_lattice">
+    <helpURL>operator:Sop/lattice</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/lattice</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Deform</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.customStateTool(kwargs, 'lattice')]]></script>
+  </tool>
+
+  <tool name="sop_polyextrude::2.0" label="PolyExtrude" icon="SOP_polyextrude">
+    <helpURL>operator:Sop/polyextrude?version=2.0</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/polyextrude::2.0</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Polygons</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.customStateTool(kwargs, 'polyextrude::2.0')]]></script>
+  </tool>
+
+  <tool name="sop_polybridge" label="PolyBridge" icon="SOP_polybridge">
+    <helpURL>operator:Sop/polybridge</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/polybridge</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Polygons</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.customStateTool(kwargs, 'polybridge')]]></script>
+  </tool>
+
+  <tool name="sop_edit" label="Edit" icon="SOP_edit">
+    <helpURL>operator:Sop/edit</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/edit</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Deform</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.customStateTool(kwargs, 'edit')]]></script>
+  </tool>
+
+  <tool name="sop_uvbrush" label="UV Brush" icon="SOP_uvbrush">
+    <helpURL>operator:Sop/uvbrush</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/uvbrush</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Texturing/UV</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.customStateTool(kwargs, 'uvbrush')]]></script>
+  </tool>
+
+  <tool name="sop_comb" label="Comb" icon="SOP_comb">
+    <helpURL>operator:Sop/comb</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/comb</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Attribute</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.customStateTool(kwargs, 'comb')]]></script>
+  </tool>
+
+  <tool name="object_null" label="Null" icon="OBJ_null">
+    <helpURL>operator:Object/null</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Object/null</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Utility</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+
+kwargs['bbox'] = hou.BoundingBox(-0.5, -0.5, -0.5, 0.5, 0.5, 0.5)
+objecttoolutils.genericTool(kwargs, 'null')]]></script>
+  </tool>
+
+  <tool name="object_morph" label="Morph" icon="SOP_blendshapes">
+    <helpURL>operator:obj_state/morph</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Animation/Rigging</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+
+objecttoolutils.customStateTool(kwargs, 'morph')]]></script>
+  </tool>
+
+  <tool name="object_path" label="Path" icon="OBJ_STATE_path">
+    <helpURL>operator:Object/path</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Object/path</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Utility</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+
+objecttoolutils.customStateTool(kwargs, 'path')]]></script>
+  </tool>
+
+  <tool name="object_capturegeometry" label="Capture Geometry" icon="SOP_capture">
+    <helpURL>operator:obj_state/capturegeometry</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Animation/Rigging</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+
+objecttoolutils.customStateTool(kwargs, 'capturegeometry')]]></script>
+  </tool>
+
+  <tool name="object_pose" label="Pose" icon="OBJ_STATE_pose">
+    <helpURL>operator:obj_state/pose</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Animation/Rigging</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+
+objecttoolutils.customStateTool(kwargs, 'pose')]]></script>
+  </tool>
+
+  <tool name="object_bonesfromcurve" label="Bones from Curve" icon="OBJ_STATE_bonesfromcurve">
+    <helpURL>operator:obj_state/bonesfromcurve</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Animation/Rigging</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+
+objecttoolutils.customStateTool(kwargs, 'bonesfromcurve')]]></script>
+  </tool>
+
+  <tool name="object_bones" label="Bones" icon="OBJ_STATE_bones">
+    <helpURL>operator:obj_state/bones</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Animation/Rigging</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+
+objecttoolutils.customStateTool(kwargs, 'bones')]]></script>
+  </tool>
+
+  <tool name="object_aligncapturepose" label="Align Capture Pose" icon="OBJ_STATE_aligncapturepose">
+    <helpURL>operator:obj_state/aligncapturepose</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Animation/Rigging</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+
+objecttoolutils.customStateTool(kwargs, 'aligncapturepose')]]></script>
+  </tool>
+
+  <tool name="object_blendpose" label="BlendPose" icon="OBJ_STATE_blendpose">
+    <helpURL>operator:obj_state/blendpose</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Parenting</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+
+objecttoolutils.customStateTool(kwargs, 'blendpose')]]></script>
+  </tool>
+
+  <tool name="object_parent" label="Parent" icon="SHELF_parent">
+    <helpURL>operator:obj_state/parent</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Animation/Rigging</toolSubmenu>
+    <toolSubmenu>Parenting</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+
+objecttoolutils.customStateTool(kwargs, 'parent')]]></script>
+  </tool>
+
+  <tool name="object_constrainttoggle" label="Toggle Constraint" icon="SHELF_constraint_toggle">
+    <helpURL>tool:constrainttoggle</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Constraints</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+objecttoolutils.constrainttoggleStateTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="sop_ripple::2.0" label="Ripple" icon="SOP_ripple">
+    <helpURL>operator:Sop/ripple</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/ripple</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Dynamics/Fluids</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+from soptoolutils import OrientInfo
+
+kwargs['parms'] = { 'usecenter': True }
+soptoolutils.genericTool(kwargs, 'ripple::2.0', orient=OrientInfo('up'))
+]]></script>
+  </tool>
+
+  <tool name="geometry_waves" label="Waves" icon="SHELF_oceanwaves">
+    <helpURL>tool:waves</helpURL>
+    <toolSubmenu>Environments/Oceans</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+evalnode = soptoolutils.genericTool(kwargs, 'oceanevaluate', exact_node_type=False)
+spectrumnode = evalnode.parent().createNode('oceanspectrum')
+spectrumnode.parm('windspeed').set(10)
+evalnode.setNextInput(spectrumnode)
+spectrumnode.moveToGoodPosition()
+]]></script>
+  </tool>
+
+  <tool name="geometry_mountain" label="Mountain" icon="SOP_mountain">
+    <helpURL>operator:Sop/attribnoise</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/attribnoise</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Deform</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import soptoolutils
+import toolutils
+
+kwargs['parms'] = {
+    'displace': 1,
+    'attribs': 'P',
+    'noiserange': 1,
+    'amplitude': 0.25,
+    'fractal': 3,
+    'oct': 8,
+    'rough': 0.4 }
+soptoolutils.genericTool(kwargs, 'attribnoise::2.0', force_filter=True, nodename = 'mountain1')
+]]></script>
+  </tool>
+
+  <tool name="terrain_hills" label="Terrain: Hills" icon="SHELF_terrain_fx">
+    <helpURL>tool:terrain_hills</helpURL>
+    <toolSubmenu>Environments/Terrain</toolSubmenu>
+    <script scriptType="python"><![CDATA[import terraintoolutils
+terraintoolutils.fxRockyLowLands(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="terrain_mountain" label="Terrain: Mountain" icon="SHELF_terrain_fx">
+    <helpURL>tool:terrain_mountain</helpURL>
+    <toolSubmenu>Environments/Terrain</toolSubmenu>
+    <script scriptType="python"><![CDATA[import terraintoolutils
+terraintoolutils.fxMountain(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="terrain_valley" label="Terrain: Valley" icon="SHELF_terrain_fx">
+    <helpURL>tool:terrain_valley</helpURL>
+    <toolSubmenu>Environments/Terrain</toolSubmenu>
+    <script scriptType="python"><![CDATA[import terraintoolutils
+terraintoolutils.fxValley(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="terrain_moonscape" label="Terrain: Moonscape" icon="SHELF_terrain_fx">
+    <helpURL>tool:terrain_moonscape</helpURL>
+    <toolSubmenu>Environments/Terrain</toolSubmenu>
+    <script scriptType="python"><![CDATA[import terraintoolutils
+terraintoolutils.fxMoonscape(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="terrain_islands" label="Terrain: Islands" icon="SHELF_terrain_fx">
+    <helpURL>tool:terrain_islands</helpURL>
+    <toolSubmenu>Environments/Terrain</toolSubmenu>
+    <script scriptType="python"><![CDATA[import terraintoolutils
+terraintoolutils.fxIslands(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="terrain_canyon" label="Terrain: Canyon" icon="SHELF_terrain_fx">
+    <helpURL>tool:terrain_canyon</helpURL>
+    <toolSubmenu>Environments/Terrain</toolSubmenu>
+    <script scriptType="python"><![CDATA[import terraintoolutils
+terraintoolutils.fxCanyon(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="object_simplebiped" label="Simple Biped" icon="OBJ_simplebiped">
+    <helpURL>operator:Object/simplebiped</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Characters</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+import toolutils
+
+objecttoolutils.genericTool(kwargs, 'simplebiped', clicktoplace=False)
+activepane = toolutils.activePane(kwargs)
+if isinstance(activepane, hou.SceneViewer):
+    activepane.enterViewState()
+]]></script>
+  </tool>
+
+  <tool name="object_simplefemale" label="Simple Female" icon="OBJ_simplefemale">
+    <helpURL>operator:Object/simplefemale</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Characters</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+import toolutils
+
+objecttoolutils.genericTool(kwargs, 'simplefemale', clicktoplace=False)
+activepane = toolutils.activePane(kwargs)
+if isinstance(activepane, hou.SceneViewer):
+    activepane.enterViewState()
+]]></script>
+  </tool>
+
+  <tool name="object_simplemale" label="Simple Male" icon="OBJ_simplemale">
+    <helpURL>operator:Object/simplemale</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Characters</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+import toolutils
+
+objecttoolutils.genericTool(kwargs, 'simplemale', clicktoplace=False)
+activepane = toolutils.activePane(kwargs)
+if isinstance(activepane, hou.SceneViewer):
+    activepane.enterViewState()
+]]></script>
+  </tool>
+
+  <tool name="object_mocapbiped1" label="Mocap Biped 1" icon="CROWDS_agent">
+    <helpURL>operator:Object/mocapbiped1</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Characters</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+import toolutils
+
+objecttoolutils.genericTool(kwargs, 'mocapbiped1', clicktoplace=False)
+activepane = toolutils.activePane(kwargs)
+if isinstance(activepane, hou.SceneViewer):
+    activepane.enterViewState()
+]]></script>
+  </tool>
+
+  <tool name="object_mocapbiped2" label="Mocap Biped 2" icon="CROWDS_agent">
+    <helpURL>operator:Object/mocapbiped2</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Characters</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+import toolutils
+
+objecttoolutils.genericTool(kwargs, 'mocapbiped2', clicktoplace=False)
+activepane = toolutils.activePane(kwargs)
+if isinstance(activepane, hou.SceneViewer):
+    activepane.enterViewState()
+]]></script>
+  </tool>
+
+  <tool name="object_freeze" label="Freeze" icon="SHELF_freezetransforms">
+    <helpURL>tool:freeze</helpURL>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+import toolutils
+
+
+# Determine context
+active_pane = toolutils.activePane(kwargs)
+scene_viewer = toolutils.sceneViewer()
+pwd = scene_viewer.pwd()
+
+# Prompt selection
+selected = scene_viewer.selectObjects(
+                prompt = toolutils.selectionPrompt(hou.objNodeTypeCategory()),
+                allow_multisel = True,
+                allowed_types = ("geo",))
+if len(selected) == 0:
+    raise hou.Error("Nothing was selected")
+objecttoolutils.freeze(selected)]]></script>
+  </tool>
+
+  <tool name="object_mocapbiped3" label="Mocap Biped 3" icon="CROWDS_agent">
+    <helpURL>operator:Object/mocapbiped3</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Characters</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+import toolutils
+
+objecttoolutils.genericTool(kwargs, 'mocapbiped3', clicktoplace=False)
+activepane = toolutils.activePane(kwargs)
+if isinstance(activepane, hou.SceneViewer):
+    activepane.enterViewState()
+]]></script>
+  </tool>
+
+  <tool name="tool_align" label="Align Components" icon="SHELF_aligncomponents">
+    <helpURL>tool:aligncomponents</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Copying</toolSubmenu>
+    <script scriptType="python"><![CDATA[import alignutils
+
+alignutils.interactiveAlign()
+]]></script>
+  </tool>
+
+  <tool name="object_matchtransform" label="Match Transform" icon="SHELF_matchtransform">
+    <helpURL>tool:matchtransform</helpURL>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+import toolutils
+
+scene_viewer = toolutils.sceneViewer()
+targets = scene_viewer.selectObjects(
+                prompt = toolutils.selectionPrompt(hou.objNodeTypeCategory()),
+                allow_multisel = True)
+if len(targets) == 0:
+    raise hou.Error("Nothing was selected")
+for target in targets:
+    target.setSelected(False)
+sources = scene_viewer.selectObjects(
+                prompt = "Select object to match",
+                quick_select = True,
+                allow_multisel = False)
+if len(sources) == 0:
+    raise hou.Error("No object to match was selected")
+xform = sources[0].worldTransform()
+for target in targets:
+    target.setWorldTransform(xform)
+]]></script>
+  </tool>
+
+  <tool name="geo_group" label="Group" icon="SOP_group">
+    <helpURL>operator:Sop/groupcreate</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Group</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import soptoolutils
+soptoolutils.genericTool(kwargs, 'groupcreate')]]></script>
+  </tool>
+
+  <tool name="geometry_extract" label="Extract" icon="SHELF_extract_object">
+    <helpURL>tool:extract</helpURL>
+    <script scriptType="python"><![CDATA[import toolutils
+import soptoolutils
+
+activepane = toolutils.activePane(kwargs)
+if activepane.type() != hou.paneTabType.SceneViewer:
+    raise hou.Error("This tool cannot run in the current pane")
+
+scene_viewer = toolutils.sceneViewer()
+nodetypename = "delete"
+
+# Obtain a geometry selection
+geo_types = (hou.geometryType.Primitives, )
+selection = scene_viewer.selectGeometry(
+                "Select the primitives to extract and press Enter to complete",
+                geometry_types = geo_types,
+                allow_obj_sel = True)
+# The following will raise an exception if nothing was selected.
+if len(selection.nodes()) == 0:
+    raise hou.Error("Nothing was selected.")
+
+# Create a new SOP container with the merged geometry
+container = soptoolutils.createSopNodeContainer(scene_viewer, "extract_object1")
+merge_sop = selection.mergedNode(container, nodetypename, True, True)
+# Turn back on the display flag for merged nodes
+for sop in selection.nodes():
+    sop.parent().setDisplayFlag(True)
+
+# Change our viewer to the new object
+scene_viewer.setPwd(merge_sop.parent())
+merge_sop.setDisplayFlag(True)
+merge_sop.setRenderFlag(True)
+merge_sop.setHighlightFlag(True)
+merge_sop.setCurrent(True, True)
+merge_sop.moveToGoodPosition()
+toolutils.homeToSelectionNetworkEditorsFor(merge_sop)
+scene_viewer.enterCurrentNodeState()]]></script>
+  </tool>
+
+  <tool name="sop_smooth::2.0" label="Smooth" icon="SOP_smooth">
+    <helpURL>operator:Sop/smooth</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Deform</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import soptoolutils
+selection_queries = [
+  {
+    'parm_name' : 'group',
+    'is_required' : True,
+    'prompt' : 'Select the primitives to smooth and press Enter to continue.',
+    'geometry_types' : (hou.geometryType.Primitives, )
+  },
+  {
+    'parm_name' : 'constrainedpoints',
+    'is_required' : False,
+    'prompt' : 'Now select the points to constrain, if any, and press Enter to complete.',
+    'geometry_types' : (hou.geometryType.Points, hou.geometryType.Edges),
+    'use_existing_selection' : False,
+    'allow_obj_sel' : False
+  },
+]
+soptoolutils.createCustomSelectionSopNodeFilterTool(kwargs, 'smooth::2.0',
+  'smooth1', selection_queries)]]></script>
+  </tool>
+
+  <tool name="object_combine" label="Combine" icon="SHELF_combine_objects">
+    <helpURL>tool:combine</helpURL>
+    <script scriptType="python"><![CDATA[import toolutils
+
+scene_viewer = toolutils.sceneViewer()
+
+# Ask for the objects to combine
+selected_objects = list(scene_viewer.selectObjects(
+    prompt = toolutils.selectionPrompt(hou.objNodeTypeCategory()),
+    allow_multisel = True,
+    allowed_types = ("geo",)))
+# The following will raise an exception if nothing was selected.
+if len(selected_objects) == 0:
+    raise hou.Error("Nothing was selected.")
+
+# Combine into the last picked item
+current_objects = [obj for obj in selected_objects if obj.isCurrent()]
+if len(current_objects) == 0:
+    container = selected_objects[-1]
+else:
+    container = current_objects[-1]
+
+selected_objects.remove(container)
+container.combine(selected_objects)
+toolutils.homeToSelectionNetworkEditorsFor(container)
+]]></script>
+  </tool>
+
+  <tool name="sop_uvsmooth" label="UV Smooth" icon="SOP_smooth">
+    <helpURL>operator:Sop/smooth</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Texturing/UV</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import soptoolutils
+selection_queries = [
+  {
+    'parm_name' : 'group',
+    'is_required' : True,
+    'prompt' : 'Select the UV primitives to smooth and press Enter to continue.',
+    'geometry_types' : (hou.geometryType.Primitives, )
+  },
+  {
+    'parm_name' : 'constrainedpoints',
+    'is_required' : False,
+    'prompt' : 'Now select the points to constrain, if any, and press Enter to complete.',
+    'geometry_types' : (hou.geometryType.Points, ),
+    'use_existing_selection' : False,
+    'allow_obj_sel' : False
+  },
+]
+sopnodes = soptoolutils.createCustomSelectionSopNodeFilterTool(kwargs, 'smooth::2.0',
+  'uvsmooth1', selection_queries)
+for node in sopnodes:
+  node.parm('attributes').set(soptoolutils.findViewersUV(kwargs))]]></script>
+  </tool>
+
+  <tool name="sop_topobuild" label="TopoBuild" icon="SOP_topobuild">
+    <helpURL>operator:Sop/topobuild</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Polygons</toolSubmenu>
+    <script scriptType="python"><![CDATA[import toolutils
+import soptoolutils
+
+activepane = toolutils.activePane(kwargs)
+if activepane.type() == hou.paneTabType.SceneViewer:
+    sopnode, template = None, None
+    node = activepane.currentNode()
+    if node and node.type().category() == hou.sopNodeTypeCategory():
+        # continue work in the current SOP network
+        sopnode = node
+        topobuild = toolutils.findInputNodeOfType(sopnode, 'topobuild', True)
+        if topobuild:
+            inputs = topobuild.inputs()
+            if len(inputs) > 1:
+                # re-use the template geometry
+                template = inputs[1]
+
+    templateobj = None
+    if template is None:
+        # select template geometry
+        for obj in activepane.selectObjects(
+                    prompt = 'Select projection geometry to retopologize and press Enter to continue.',
+                    allowed_types = ('geo', ),
+                    allow_multisel = False):
+            templateobj = obj
+            activepane.currentNode().setCurrent(False, True)
+
+    extendobj = None
+    # Only prompt the user if they alraedy selected a valid node.
+    if templateobj and sopnode is None:
+        # select topology to extend
+        for obj in activepane.selectObjects(
+                prompt = 'Now select topology to extend, if any, and press Enter to complete.',
+                allowed_types = ('geo', ),
+                allow_multisel = False):
+            extendobj = obj
+            sopnode = extendobj.displayNode()
+
+    if templateobj and template is None:
+        if templateobj != extendobj:
+            # create a new container if the selected object is an ancestor of sopnode
+            node = sopnode
+            while node:
+                if node == templateobj:
+                    sopnode = None
+                    break
+                node = node.parent()
+        else:
+            sopnode = None
+        if sopnode:
+            container = sopnode.parent()
+        else:
+            # create container for retopo work
+            container = templateobj.parent().createNode('geo', templateobj.name() + '_retopo')
+            toolutils.removeDefaultGeometryObjectContents(container)
+            container.moveToGoodPosition()
+
+        # object merge template geometry
+        template = container.createNode('object_merge')
+        template.parm('objpath1').set(template.relativePathTo(templateobj))
+        template.parm('xformpath').set('.')
+        template.moveToGoodPosition()
+
+    if template:
+        template.setTemplateFlag(True)
+        if sopnode is None or not (sopnode.type().name() == 'topobuild' and len(sopnode.inputs()) > 1):
+            # create new topobuild node
+            topobuild = template.parent().createNode('topobuild')
+            topobuild.setInput(0, sopnode)
+            topobuild.setInput(1, template)
+            topobuild.moveToGoodPosition()
+            topobuild.setDisplayFlag(True)
+            topobuild.setRenderFlag(sopnode is None or sopnode.isRenderFlagSet())
+
+            # add visualizer
+            vis = hou.viewportVisualizers.createVisualizer(hou.viewportVisualizers.type('vis_color'), hou.viewportVisualizerCategory.Node, topobuild)
+            vis.setParm('colortype', 'constant')
+            vis.setParm('class', 'detail')
+            vis.setParm('constcolorr', 0.0)
+            vis.setParm('constcolorg', 0.9)
+            vis.setParm('constcolorb', 0.21)
+            vis.setIsActive(True)
+            sopnode = topobuild
+        sopnode.setCurrent(True, True)
+        activepane.enterCurrentNodeState()
+elif activepane.type() == hou.paneTabType.NetworkEditor:
+    soptoolutils.genericTool(kwargs, 'topobuild')
+else:
+    raise hou.Error("Can't run the tool in the selected pane.")]]></script>
+  </tool>
+
+  <tool name="sop_polydraw" label="PolyDraw" icon="SOP_polydraw">
+    <helpURL>operator:Sop/topobuild#polydraw</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Polygons</toolSubmenu>
+    <script scriptType="python"><![CDATA[import toolutils
+import soptoolutils
+
+sop = None
+activepane = toolutils.activePane(kwargs)
+if isinstance(activepane, hou.SceneViewer):
+    parent = activepane.pwd()
+    child_type = parent.childTypeCategory()
+    if child_type == hou.objNodeTypeCategory():
+        # create new object
+        obj = parent.createNode('geo', 'polydraw_object1')
+        obj.moveToGoodPosition()
+        sop = obj.createNode('topobuild', 'polydraw1')
+        sop.setCurrent(True, True)
+    else:
+        node = activepane.currentNode()
+        if node and node.type().category() == hou.sopNodeTypeCategory() and node.type().name() == 'topobuild':
+            sop = node
+if sop:
+    activepane.enterCurrentNodeState()
+else:
+    soptoolutils.genericTool(kwargs, 'topobuild', 'polydraw1')]]></script>
+  </tool>
+
+  <tool name="sop_deltamush" label="Delta Mush" icon="SOP_deltamush">
+    <helpURL>operator:Sop/deltamush</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/deltamush</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Animation/Rigging</toolSubmenu>
+    <script scriptType="python"><![CDATA[import toolutils
+import soptoolutils
+
+deltamush = soptoolutils.genericTool(kwargs, 'deltamush')
+if isinstance(toolutils.activePane(kwargs), hou.SceneViewer):
+    deform = soptoolutils.findDeformTypeInputSop(deltamush)
+    if deform is not None and len(deform.inputs()) > 0:
+        deltamush.setInput(1, deform.inputs()[0])
+]]></script>
+  </tool>
+
+  <tool name="terrain_dunes" label="Terrain: Dunes" icon="SHELF_terrain_fx">
+    <helpURL>tool:terrain_dunes</helpURL>
+    <toolSubmenu>Environments/Terrain</toolSubmenu>
+    <script scriptType="python"><![CDATA[import terraintoolutils
+terraintoolutils.fxDunes(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="geometry_copy" label="Copy to Points" icon="SOP_copy">
+    <helpURL>operator:Sop/copytopoints</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Copying</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import soptoolutils
+
+sop = soptoolutils.genericTool(kwargs, 'copytopoints::2.0')
+sop.parm('resettargetattribs').pressButton()]]></script>
+  </tool>
+
+  <tool name="geometry_duplicate" label="Duplicate" icon="SOP_duplicate">
+    <helpURL>operator:Sop/copyxform</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Copying</toolSubmenu>
+    <script scriptType="python"><![CDATA[import toolutils
+import soptoolutils
+
+scene_viewer = toolutils.sceneViewer();
+current_path = scene_viewer.pwd();
+if current_path.childTypeCategory() == hou.objNodeTypeCategory():
+    toolutils.genericStateTool(kwargs, 'objcopy')
+else:
+    node = soptoolutils.genericTool(kwargs, 'copyxform')
+    activepane = toolutils.activePane(kwargs)
+    if isinstance(activepane, hou.SceneViewer) and node:
+        ingeo = node.inputGeometry(0)
+        if ingeo:
+            groupstr = node.parm('sourcegroup').evalAsString()
+            bbox = ingeo.primBoundingBox(groupstr)
+            node.parmTuple('p').set(bbox.center())]]></script>
+  </tool>
+
+  <tool name="geometry_curvefromedges" label="Curve from Edges" icon="SOP_convertline">
+    <helpURL>operator:Sop/convertline</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Curves</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import soptoolutils
+kwargs['parms'] = {
+    'connectpath': True,
+    'remove': True,
+    'computelength': False }
+soptoolutils.genericTool(kwargs, 'convertline', 'curvefromedges1')]]></script>
+  </tool>
+
+  <tool name="geometry_sphere" label="Sphere" icon="SOP_sphere">
+    <helpURL>operator:Sop/sphere</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Polygons</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import soptoolutils
+from soptoolutils import OrientInfo
+rad = 0.5
+# NB: Bounding box is the same regardless of hou.ui.orientationUpAxis().
+kwargs['bbox'] = hou.BoundingBox(-rad, -rad, -rad, rad, rad, rad)
+kwargs['parms'] = {
+    'type': 'polymesh',
+    'radx': rad,
+    'rady': rad,
+    'radz': rad }
+soptoolutils.genericTool(kwargs, 'sphere', orient=OrientInfo('orient'))
+]]></script>
+  </tool>
+
+  <tool name="geometry_tube" label="Tube" icon="SOP_tube">
+    <helpURL>operator:Sop/tube</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Polygons</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import soptoolutils
+from soptoolutils import OrientInfo
+rad = 0.5
+height = 1.0
+if hou.ui.orientationUpAxis() == hou.orientUpAxis.Z:
+    kwargs['bbox'] = hou.BoundingBox(-rad, -rad, -height/2., rad, rad, height/2.)
+else:
+    kwargs['bbox'] = hou.BoundingBox(-rad, -height/2., -rad, rad, height/2., rad)
+kwargs['parms'] = {
+    'type': 'poly',
+    'rad1': rad,
+    'rad2': rad,
+    'height': height }
+soptoolutils.genericTool(kwargs, 'tube', orient=OrientInfo('orient'))
+]]></script>
+  </tool>
+
+  <tool name="sop_torus" label="Torus" icon="SOP_torus">
+    <helpURL>operator:Sop/torus</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+      <contextNetType>LOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+      <contextNetType>LOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Primitive</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import soptoolutils
+from soptoolutils import OrientInfo
+orad = 0.5
+irad = 0.25
+if hou.ui.orientationUpAxis() == hou.orientUpAxis.Z:
+    kwargs['bbox'] = hou.BoundingBox(-orad - irad, -orad - irad, -irad, orad + irad, orad + irad, irad)
+else:
+    kwargs['bbox'] = hou.BoundingBox(-orad - irad, -irad, -orad - irad, orad + irad, irad, orad + irad)
+kwargs['parms'] = {
+    'type': 'poly',
+    'radx': orad,
+    'rady': irad }
+soptoolutils.genericTool(kwargs, 'torus', orient=OrientInfo('orient'))
+]]></script>
+  </tool>
+
+  <tool name="sop_grid" label="Grid" icon="SOP_grid">
+    <helpURL>operator:Sop/grid</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+      <contextNetType>LOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+      <contextNetType>LOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Primitive</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import soptoolutils
+from soptoolutils import OrientInfo
+
+size = 10.0
+if hou.ui.orientationUpAxis() == hou.orientUpAxis.Z:
+    kwargs['bbox'] = hou.BoundingBox(-size/2.0, -size/2.0, 0, size/2.0, size/2.0, 0)
+else:
+    kwargs['bbox'] = hou.BoundingBox(-size/2.0, 0, -size/2.0, size/2.0, 0, size/2.0)
+grid = soptoolutils.genericTool(kwargs, 'grid', orient=OrientInfo('orient'))
+]]></script>
+  </tool>
+
+  <tool name="geometry_platonic" label="Platonic Solids" icon="SOP_platonic">
+    <helpURL>operator:Sop/platonic</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Primitive</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import soptoolutils
+from soptoolutils import OrientInfo
+
+rad = 0.5
+# NB: Bounding box is the same regardless of hou.ui.orientationUpAxis().
+kwargs['bbox'] = hou.BoundingBox(-rad, -rad, -rad, rad, rad, rad)
+kwargs['parms'] = { 'radius': rad }
+soptoolutils.genericTool(kwargs, 'platonic',  orient=OrientInfo('orient'))
+]]></script>
+  </tool>
+
+  <tool name="geometry_line" label="Line" icon="SOP_line">
+    <helpURL>operator:Sop/line</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Primitive</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import soptoolutils
+from soptoolutils import OrientInfo
+
+if hou.ui.orientationUpAxis() == hou.orientUpAxis.Z:
+    kwargs['bbox'] = hou.BoundingBox(-1.0, -.0, -1., 1.0, .0, 1.)
+else:
+    kwargs['bbox'] = hou.BoundingBox(-1.0, -1., -.0, 1.0, 1., .0)
+kwargs['parms'] = { 'type': 'poly' }
+soptoolutils.genericTool(kwargs, 'line', orient=OrientInfo('dir'))
+]]></script>
+  </tool>
+
+  <tool name="geometry_circle" label="Circle" icon="SOP_circle">
+    <helpURL>operator:Sop/circle</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Polygons</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import soptoolutils
+from soptoolutils import OrientInfo
+
+if hou.ui.orientationUpAxis() == hou.orientUpAxis.Z:
+    kwargs['bbox'] = hou.BoundingBox(-1.0, -.0, -1., 1.0, .0, 1.)
+else:
+    kwargs['bbox'] = hou.BoundingBox(-1.0, -1., -.0, 1.0, 1., .0)
+kwargs['parms'] = { 'type': 'poly' }
+soptoolutils.genericTool(kwargs, 'circle', orient=OrientInfo('orient'))
+]]></script>
+  </tool>
+
+  <tool name="sop_box" label="Box" icon="SOP_box">
+    <helpURL>operator:Sop/box</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Primitive</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import soptoolutils
+
+kwargs['bbox'] = hou.BoundingBox(-0.5, -0.5, -0.5, 0.5, 0.5, 0.5)
+kwargs['parms'] = {
+    'type': 'polymesh',
+    'divrate1': 2,
+    'divrate2': 2,
+    'divrate3': 2 }
+soptoolutils.genericTool(kwargs, 'box')
+]]></script>
+  </tool>
+
+  <tool name="geometry_helix" label="Helix" icon="SHELF_helix">
+    <helpURL>operator:Sop/spiral</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+      <contextNetType>LOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+      <contextNetType>LOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Curves</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+from soptoolutils import OrientInfo
+turns = 3
+rad = 1
+height = 1
+if hou.ui.orientationUpAxis() == hou.orientUpAxis.Z:
+    kwargs['bbox'] = hou.BoundingBox(-rad, -rad, 0, rad, rad, height)
+else:
+    kwargs['bbox'] = hou.BoundingBox(-rad, 0, -rad, rad, height, rad)
+kwargs['parms'] = {
+    'turns': turns,
+    'height': height,
+    'startradius': rad,
+    'radiusincreaseperturn': 0
+    }
+soptoolutils.genericTool(kwargs, 'spiral', 'helix1', orient=OrientInfo('orient'))]]></script>
+  </tool>
+
+  <tool name="geometry_mirror" label="Mirror" icon="SOP_mirror">
+    <helpURL>operator:Sop/mirror</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry</toolSubmenu>
+    <script scriptType="python"><![CDATA[import toolutils
+import soptoolutils
+
+scene_viewer = toolutils.sceneViewer();
+current_path = scene_viewer.pwd();
+if current_path.childTypeCategory() == hou.objNodeTypeCategory():
+    toolutils.genericStateTool(kwargs, 'objmirror')
+else:
+    mirror_sop = soptoolutils.genericTool(kwargs, 'mirror')
+    activepane = toolutils.activePane(kwargs)
+    if mirror_sop:
+        inputgeo = mirror_sop.inputGeometry(0)
+        if inputgeo:
+            mirror_sop.parmTuple('origin').set(inputgeo.boundingBox().center())]]></script>
+  </tool>
+
+  <tool name="sop_boolean::2.0" label="Boolean" icon="SOP_boolean">
+    <helpURL>operator:Sop/boolean</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Polygons</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+soptoolutils.addBooleanTool(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="geometry_voronoifracture" label="Shatter" icon="SOP_shatter">
+    <helpURL>tool:shatter</helpURL>
+    <script scriptType="python"><![CDATA[
+import soptoolutils
+
+# Create our voronoi fracture
+fracture = soptoolutils.genericTool(kwargs, 'voronoifracture::2.0')
+
+fognode = fracture.parent().createNode('isooffset', 'converttofog1')
+fognode.parm("output").set('fogvolume')
+fognode.parm("samplediv").set(30)
+
+fognode.setNextInput(fracture.inputs()[0])
+
+fognode.moveToGoodPosition()
+
+scatternode = fracture.parent().createNode('scatter', 'chunkcenters')
+scatternode.parm("forcetotal").set(True)
+scatternode.parm("npts").set(10)
+scatternode.parm("relaxpoints").set(False)
+scatternode.setNextInput(fognode)
+scatternode.moveToGoodPosition()
+
+fracture.setNextInput(scatternode)
+fracture.moveToGoodPosition()
+
+]]></script>
+  </tool>
+
+  <tool name="geometry_fogvolume" label="Volume" icon="SOP_volume">
+    <helpURL>operator:Sop/isooffset</helpURL>
+    <script scriptType="python"><![CDATA[
+import soptoolutils
+
+kwargs['parms'] = {
+    'output': 'fogvolume',
+    'samplediv': 30 }
+soptoolutils.genericTool(kwargs, 'isooffset', 'converttofog1')
+]]></script>
+  </tool>
+
+  <tool name="geometry_squashstretch" label="Squash and Stretch" icon="SHELF_twist_squashstretch">
+    <helpURL>operator:Sop/bend#squash</helpURL>
+    <script scriptType="python"><![CDATA[import soptoolutils
+node = soptoolutils.createBendSop(kwargs, "squashstretch1")
+node.parm("enablelengthscale").set(1)
+node.parm("lengthscalefolder").set(1)
+node.parm("enablebend").set(0)
+node.parm("bendfolder").set(0)
+]]></script>
+  </tool>
+
+  <tool name="geometry_lineartaper" label="Linear Taper" icon="SHELF_twist_linear_taper">
+    <helpURL>operator:Sop/bend#taper</helpURL>
+    <toolMenuContext name="viewer">
+      <contextOpType>Sop/bend</contextOpType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/bend</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Deform</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+node = soptoolutils.createBendSop(kwargs, "lineartaper1")
+node.parm("enabletaper").set(1)
+node.parm("taperfolder").set(1)
+node.parm("enablebend").set(0)
+node.parm("bendfolder").set(0)
+]]></script>
+  </tool>
+
+  <tool name="sop_bend" label="Bend" icon="SHELF_twist_bend">
+    <helpURL>operator:Sop/bend#bend</helpURL>
+    <toolMenuContext name="viewer">
+      <contextOpType>Sop/bend</contextOpType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/bend</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Deform</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+soptoolutils.createBendSop(kwargs, "bend1")
+]]></script>
+  </tool>
+
+  <tool name="geometry_twist" label="Twist" icon="SHELF_twist_twist">
+    <helpURL>operator:Sop/bend#twist</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/bend</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Deform</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+node = soptoolutils.createBendSop(kwargs, "twist1")
+node.parm("enabletwist").set(1)
+node.parm("twistfolder").set(1)
+node.parm("enablebend").set(0)
+node.parm("bendfolder").set(0)
+]]></script>
+  </tool>
+
+  <tool name="geometry_loft" label="Loft" icon="SOP_loft">
+    <helpURL>operator:Sop/skin#loft</helpURL>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+u_selector_only = [0]
+node = soptoolutils.genericSopNodeFilterTool(kwargs, 'skin', 'loft1', False, False, True, u_selector_only)]]></script>
+  </tool>
+
+  <tool name="geometry_spyro_groundexplosion" label="Simple Ground Explosion" icon="SHELF_explosion">
+    <helpURL>tool:spyro_simplegroundexplosion</helpURL>
+    <script scriptType="python"><![CDATA[
+import dopsparsepyrotools
+dopsparsepyrotools.createGroundExplosion(kwargs, False)
+]]></script>
+  </tool>
+
+  <tool name="hengine_plugin_installer" label="Plugin Installer" icon="SHELF_download_engine_plugin">
+    <helpURL>tool:hengineinstaller</helpURL>
+    <script scriptType="python"><![CDATA[from __future__ import print_function
+import hou
+import os
+import ctypes
+import platform
+import shutil
+import sys
+
+from hutil.Qt.QtCore import *
+from hutil.Qt.QtGui import *
+from hutil.Qt.QtWidgets import *
+
+
+
+###################################################################################################
+# GLOBAL VARS / HELPERS
+###################################################################################################
+
+# store the Houdini Version ( 16.5.XXX)
+HOU_VERSION = ".".join(map(str, hou.applicationVersion()))
+IS_STEAM = False
+PRINT_DEBUG = False
+
+# Get platform
+os_name = platform.system()
+if ( ( os_name == "Win" ) or ( os_name == "Windows" ) or ( "CYGWIN" in os_name) ):
+    HOST_OS = "Win"
+    try:
+        import _winreg  # python2
+        winreg = _winreg
+    except ImportError:
+        import winreg   # python3
+elif ( ( os_name == "Darwin" ) or ( os_name == "Mac" ) ):
+    HOST_OS = "Mac"
+else:
+    HOST_OS = "Linux"
+
+
+#--------------------------------------------------------------------------
+# Copy content from source to dest, removing existing files/folders
+#--------------------------------------------------------------------------
+def copy_content(source, dest):
+    # Start by cleaning the destination or the copy will fail
+    if ( os.path.isfile( dest ) ):
+        os.remove( dest )
+
+    if ( os.path.isdir( dest ) ):
+        shutil.rmtree( dest, ignore_errors=True )
+
+    # We can now copy source to dest
+    try:
+        if ( os.path.isfile( source ) ):
+            # Copy a file
+            shutil.copy(source, dest)
+        else:
+            # Copy a directory
+            shutil.copytree(source, dest, symlinks=True, ignore=shutil.ignore_patterns('*.pdb'))
+    except:
+        raise
+
+#--------------------------------------------------------------------------
+# Copy content from source to dest, replacing only existing files/folders
+#--------------------------------------------------------------------------
+def replace_content(source_root, dest_root):
+    for src_dir, dirs, files in os.walk(source_root):
+        dst_dir = src_dir.replace(source_root, dest_root, 1)
+        if not os.path.exists(dst_dir):
+            os.makedirs(dst_dir)
+        for file_ in files:
+            src_file = os.path.join(src_dir, file_)
+            dst_file = os.path.join(dst_dir, file_)
+            if os.path.exists(dst_file):
+                try:
+                    os.remove(dst_file)
+                except PermissionError as e:
+                    os.chmod(dst_file, stat.S_IWUSR)
+                    os.remove(dst_file)
+            shutil.copy(src_file, dst_dir)
+
+
+#--------------------------------------------------------------------------
+# List Dirs in a dir
+#--------------------------------------------------------------------------
+def list_dirs( path ):
+    for (root, dirs, files) in os.walk(path):
+        return dirs
+
+#--------------------------------------------------------------------------
+# Debug Print
+#--------------------------------------------------------------------------
+def debug(text):
+    if PRINT_DEBUG:
+        print(text)
+
+#--------------------------------------------------------------------------
+# Checks the user has admin rights
+#--------------------------------------------------------------------------
+def is_admin():
+    if HOST_OS == "Win":
+        try:
+            return ctypes.windll.shell32.IsUserAnAdmin()
+        except:
+            return False
+    else:
+        return os.getuid() == 0
+
+#--------------------------------------------------------------------------
+# Restarts Houdini with Admin rights
+#--------------------------------------------------------------------------
+def restart_as_admin():
+    if not is_admin():
+        # Re-run the program with admin rights
+        debug("Restarting Houdini As Admin...")
+        ctypes.windll.shell32.ShellExecuteW(None, u"runas", unicode(sys.executable), None, None, 1)
+
+
+#--------------------------------------------------------------------------
+# Explores a path
+#--------------------------------------------------------------------------
+def explore_to( path ):
+    if ( not os.path.isdir( path ) ):
+        path = os.path.dirname(os.path.realpath(path))
+
+    if ( not os.path.isdir( path ) ):
+        error = "Could not open " + path + " as it's not a valid path."
+        hou.ui.displayMessage(error, ('OK',), hou.severityType.Warning)
+
+    # Open an explorer to the directory
+    os.startfile(path, 'explore')
+        
+
+
+###################################################################################################
+# INSTALL DIALOG
+###################################################################################################
+class InstallDialog(QDialog):
+
+    #--------------------------------------------------------------------------
+    def __init__(self, parent, installer_object):
+        super(InstallDialog, self).__init__(parent)
+        self.setWindowTitle("Houdini Engine Plugin Installer")
+        self.installer_object = installer_object
+
+        if HOST_OS == "Win":
+            self.hfs_engine = os.path.join(self.installer_object.HFS, "engine")
+        elif HOST_OS == "Mac":
+            # Strip out everything from 'Frameworks/...' onwards from HFS path to get the Houdini installation root
+            self.installer_object.hfs_root = self.installer_object.HFS.split('Frameworks/Houdini.framework/Versions/Current/Resources')[0]
+            self.hfs_engine = os.path.join(self.installer_object.hfs_root, "Houdini Engine")
+
+        self.hostFound = False
+        self.hostPluginFound = False
+        self.pluginFound = False
+        self.build_ui()
+
+    #--------------------------------------------------------------------------
+    # Fills the plugin combo with the available plugins in $HFS/engine
+    #--------------------------------------------------------------------------
+    def fill_combo_plugin(self):
+        self.plugin_combo.clear()
+        plugin_path = os.path.join(self.hfs_engine, "unreal")
+        if ( os.path.isdir( plugin_path ) ):
+            self.plugin_combo.addItem("Unreal")
+        plugin_path = os.path.join(self.hfs_engine, "maya")
+        if ( os.path.isdir( plugin_path ) ):
+            self.plugin_combo.addItem("Maya")
+        plugin_path = os.path.join(self.hfs_engine, "unity")
+        if ( os.path.isdir( plugin_path ) ):
+            self.plugin_combo.addItem("Unity")
+        if HOST_OS == "Win":
+            # 3dsMax is only available on Windows
+            plugin_path = os.path.join(self.hfs_engine, "3dsmax")
+            if ( os.path.isdir( plugin_path ) ):
+                self.plugin_combo.addItem("3dsMax")
+
+    #--------------------------------------------------------------------------
+    # Fills the version combo with the available plugins version
+    #--------------------------------------------------------------------------
+    def fill_combo_version(self):
+        host = self.plugin_combo.currentText()
+        self.version_combo.clear()
+        if ( host == "Unreal" ):
+            unreal_path = os.path.join(self.hfs_engine, "unreal")
+            dirs = list_dirs( unreal_path )
+            for version in reversed(dirs):
+                self.version_combo.addItem(version)
+        elif ( host == "Maya" ):
+            maya_path = os.path.join(self.hfs_engine, "maya")
+            dirs = list_dirs( maya_path )
+            for version in reversed(dirs):
+                self.version_combo.addItem(version.replace("maya", ""))
+        elif ( host == "Unity" ):
+            unity_path = os.path.join(self.hfs_engine, "unity")
+            unity_plugin_path = os.path.join(unity_path, "HoudiniEngineUnity.unitypackage")
+            if ( os.path.isfile( unity_plugin_path ) ):
+                self.version_combo.addItem("Unity")
+            unity_plugin_path = os.path.join(unity_path, "HoudiniEngineUnity_v2_beta.unitypackage")
+            if ( os.path.isfile( unity_plugin_path ) ):
+                self.version_combo.addItem("beta (v2)")
+            unity_plugin_path = os.path.join(unity_path, "houdini-engine.scripts.unitypackage")
+            if ( os.path.isfile( unity_plugin_path ) ):
+                self.version_combo.addItem("legacy (v1)")
+        elif ( host == "3dsMax" ):
+            max_path = os.path.join(self.hfs_engine, "3dsmax")
+            dirs = list_dirs( max_path )
+            for version in reversed( dirs ):
+                self.version_combo.addItem(version.replace("3DSMax-", ""))
+
+    #--------------------------------------------------------------------------
+    # On Plugin change
+    #--------------------------------------------------------------------------
+    def on_plugin_change(self, idx):
+        self.fill_combo_version()
+
+    #--------------------------------------------------------------------------
+    # On Version change
+    #    Checks if the host, host plugin and hfs plugin exist
+    #--------------------------------------------------------------------------
+    def on_version_change(self, idx):
+        # find the path to the host app
+        host = self.plugin_combo.currentText()
+        version = self.version_combo.currentText()
+
+        self.installer_object.host = host
+        self.installer_object.version = version
+
+        # Get the host path from registry
+        host_path = None
+        if ( host == "Unreal" ):
+            host_path = self.installer_object.get_unreal_install_path( version )
+        elif ( host == "Maya" ):
+            host_path = self.installer_object.get_maya_install_path( version )
+        elif ( host == "Unity" ):
+            host_path = self.installer_object.get_unity_install_path()
+        elif ( host == "3dsMax" ):
+            host_path = self.installer_object.get_max_install_path( version )
+
+        # Check the Host path exists
+        if ( host_path == None ):
+            self.hostFound = False
+        else:
+            os.path.normpath(host_path)
+            if ( not os.path.isdir( host_path ) ):
+                self.hostFound = False
+                self.pluginFound = False
+                host_path = None
+            else:
+                self.hostFound = True
+
+        self.installer_object.hostPath = host_path
+
+        if ( not self.hostFound ):
+            host_path = "Could not find " + host + " " + version + "!"
+
+        if ( host == "Unity" ):
+            host_path = ""
+        self.host_path.setText(host_path)
+
+        # Look if the host already has the plugin installed
+        self.check_host_plugin_found()
+
+        # Check we have the corresponding hfs plugin
+        self.check_plugin_found()
+
+        # Update the install/uninstall buttons
+        self.validate_buttons()
+
+    #--------------------------------------------------------------------------
+    # Update the install/uninstall buttons
+    #--------------------------------------------------------------------------
+    def validate_buttons(self):
+        if ( self.hostFound and self.pluginFound ):
+            self.installButton.setEnabled( True )
+        else:
+            self.installButton.setEnabled( False )
+
+        if ( self.hostFound and self.hostPluginFound ):
+            self.uninstallButton.setEnabled( True )
+        else:
+            self.uninstallButton.setEnabled( False )
+
+        if ( self.hostPluginFound ):
+            self.installButton.setText("Update")            
+        else:
+            self.installButton.setText("Install")
+            
+        if ( self.installer_object.host == "Unity" ):
+            self.browseButton.setEnabled( False )
+            self.host_path.setEnabled( False )
+            self.host_plugin_path.setEnabled( False )
+            self.browseHostPluginButton.setEnabled( False )
+            self.uninstallButton.setEnabled( True )
+        else:
+            self.browseButton.setEnabled( True )
+            self.host_path.setEnabled( self.hostFound )
+            self.host_plugin_path.setEnabled( self.hostFound )
+            self.browseHostPluginButton.setEnabled( self.hostFound )
+
+        self.update_status()
+
+    #--------------------------------------------------------------------------
+    # Update the status label
+    #--------------------------------------------------------------------------
+    def update_status(self):
+        status = ""
+        status2 = ""
+        status3 = ""
+
+        host = self.installer_object.host
+        version = self.installer_object.version
+        host_version = host + " " + version
+        if ( not self.pluginFound ):
+            status = "<font color='red'>" + host_version + " Plugin not found</font>"
+            status2 = "<font color='red'>Please reinstall it via the Houdini Installer</font>"
+        elif ( not self.hostFound ):
+            status = "<font color='red'>" + host_version + " not found</font>"
+            status2 = "<font color='red'>Please select its folder by clicking on the Host Path button</font>"
+        else:
+            if ( self.hostFound ):
+                status = "<font color='green'>" + host_version + " Found</font>"
+            if ( self.hostPluginFound ):
+                status2 = "<font color='green'>" + host_version + " Plugin already installed</font>"
+            else:
+                status2 = "<font color='orange'>" + host_version + " Plugin not installed</font>"
+                
+        if ( self.hostFound ):
+            temp_host_path = self.installer_object.hostPath
+            temp_host_path = temp_host_path.replace("/", "")
+            temp_host_path = temp_host_path.replace("\\", "")            
+            host_protected = HOST_OS == "Win" and temp_host_path.lower().startswith("c:program")
+            
+            if ( host_protected and not is_admin() ):
+                status3 = "<font color='red'>" + host_version + " is installed in a protected folder. Admin rights required.</font>"                
+
+        if ( host == "Unity" ):
+            status = "<font color='green'>" + host + " Found</font>"
+            status2 = "<font color='green'>(The Unity plug-in package needs to be imported manually)</font>"
+            status3 = ""
+            
+        self.status.setText(status)
+        self.status2.setText(status2)
+        self.status3.setText(status3)
+
+
+    #--------------------------------------------------------------------------
+    # Look for the hfs plugin
+    #--------------------------------------------------------------------------
+    def check_plugin_found(self):
+        self.installer_object.hfsPluginPath = None
+        error = None
+        hfs = self.installer_object.HFS
+        if ( not os.path.isdir( hfs ) ):
+            error = "Unable to install plugin: Could not find $HFS!"
+            self.pluginFound = False
+        else:
+            host = self.plugin_combo.currentText()
+            if ( host == "Unreal" ):
+                engine_host = os.path.join(self.hfs_engine, "unreal")
+                if ( not os.path.isdir( engine_host ) ):
+                    error = "Unable to install plugin: Could not find $HFS/engine/unreal!"
+                    self.pluginFound = False
+                else:
+                    version = self.version_combo.currentText()
+                    engine_host_version = os.path.join(engine_host, version)
+                    if ( not os.path.isdir( engine_host_version ) ):
+                        error = "Unable to install plugin: Could not find $HFS/engine/unreal/" + version
+                        self.pluginFound = False
+                    else:
+                        plugin_dir = os.path.join( engine_host_version, "HoudiniEngine")
+                        if ( not os.path.isdir( plugin_dir ) ):
+                            error = "Unable to install plugin: Could not find " + plugin_dir
+                            self.pluginFound = False
+                        else:
+                            self.pluginFound = True
+                            self.installer_object.hfsPluginPath = plugin_dir
+            elif ( host == "Maya" ):
+                engine_host = os.path.join(self.hfs_engine, "maya")
+                if ( not os.path.isdir( engine_host ) ):
+                    error = "Unable to install plugin: Could not find $HFS/engine/maya!"
+                    self.pluginFound = False
+                else:
+                    version = self.version_combo.currentText()
+                    engine_host_version = os.path.join(engine_host, "maya" + version)
+                    if ( not os.path.isdir( engine_host_version ) ):
+                        error = "Unable to install plugin: Could not find $HFS/engine/maya/maya" + version
+                        self.pluginFound = False
+                    else:
+                        plugin_module_file = os.path.join(engine_host_version, "houdiniEngine-maya" + version)
+                        if ( not os.path.isfile( plugin_module_file ) ):
+                            error = "Unable to install plugin: Could not find " + plugin_module_file
+                            self.pluginFound = False
+                        else:
+                            self.pluginFound = True
+                            self.installer_object.hfsPluginPath = plugin_module_file
+            elif ( host == "Unity" ):
+                engine_host = os.path.join(self.hfs_engine, "unity")
+                if ( not os.path.isdir( engine_host ) ):
+                    error = "Unable to install plugin: Could not find $HFS/engine/unity!"
+                    self.pluginFound = False
+                else:
+                    version = self.version_combo.currentText()
+                    engine_host_version = engine_host
+                    if ( "v2" in version ):
+                        engine_host_version = os.path.join(engine_host_version, "HoudiniEngineUnity_v2_beta.unitypackage")
+                    elif ( "v1" in version ):
+                        engine_host_version = os.path.join(engine_host_version, "houdini-engine.scripts.unitypackage")
+                    else:
+                        engine_host_version = os.path.join(engine_host_version, "HoudiniEngineUnity.unitypackage")
+                    if ( not os.path.isfile( engine_host_version ) ):
+                        error = "Unable to install plugin: Could not find the plugin in $HFS/engine/unity"
+                        self.pluginFound = False
+                    else:
+                        self.pluginFound = True
+                        self.installer_object.hfsPluginPath = engine_host_version
+            elif ( host == "3dsMax" ):
+                engine_host = os.path.join(self.hfs_engine, "3dsmax")
+                if ( not os.path.isdir( engine_host ) ):
+                    error = "Unable to install plugin: Could not find $HFS/engine/3dsmax!"
+                    self.pluginFound = False
+                else:
+                    version = self.version_combo.currentText()
+                    engine_host_version = os.path.join(engine_host, "3DSMax-" + version)
+                    if ( not os.path.isdir( engine_host_version ) ):
+                        error = "Unable to install plugin: Could not find $HFS/engine/3dsmax/3DSMax" + version
+                        self.pluginFound = False
+                    else:
+                        plugin_module_file = os.path.join(engine_host_version, "HoudiniEngineFor3DSMax.dlu")
+                        if ( not os.path.isfile( plugin_module_file ) ):
+                            error = "Unable to install plugin: Could not find " + plugin_module_file
+                            self.pluginFound = False
+                        else:
+                            self.pluginFound = True
+                            self.installer_object.hfsPluginPath = plugin_module_file
+
+            if ( not self.pluginFound ):
+                debug(error)
+                self.plugin_path.setText("")
+            else:
+                self.plugin_path.setText(self.installer_object.hfsPluginPath )
+
+
+
+    #--------------------------------------------------------------------------
+    # Checks if the plugin is already installed for the host
+    #--------------------------------------------------------------------------
+    def check_host_plugin_found(self):
+        self.installer_object.hostPluginPath = None
+        host_path = self.installer_object.hostPath
+        plugin_path = None
+        if ( not self.hostFound ):
+            self.pluginFound = False
+        else:
+            host = self.plugin_combo.currentText()
+            if ( host == "Unreal" ):
+                plugin_path = self.installer_object.get_unreal_plugin_path( host_path )
+                self.installer_object.hostPluginPath = plugin_path
+                if ( not os.path.isdir( plugin_path ) ):
+                    self.hostPluginFound = False
+                else:
+                    self.hostPluginFound = True
+            elif ( host == "Maya" ):
+                version = self.version_combo.currentText()
+                plugin_path = self.installer_object.get_maya_plugin_path( host_path, version )
+                self.installer_object.hostPluginPath = plugin_path
+                if ( not os.path.isfile( plugin_path ) ):
+                    self.hostPluginFound = False
+                else:
+                    self.hostPluginFound = True
+            elif ( host == "3dsMax" ):
+                plugin_path = self.installer_object.get_max_plugin_path( host_path )
+                self.installer_object.hostPluginPath = plugin_path
+                if ( not os.path.isfile( plugin_path ) ):
+                    self.hostPluginFound = False
+                else:
+                    self.hostPluginFound = True
+            elif ( host == "Unity" ):
+                self.hostPluginFound = False
+                #plugin_path = "Import Plugin Package"
+                plugin_path = ""
+        if (plugin_path == None):
+            self.host_plugin_path.setText("")
+        else:
+            self.host_plugin_path.setText(plugin_path)
+
+    #--------------------------------------------------------------------------
+    # Build UI
+    #--------------------------------------------------------------------------
+    def build_ui(self):
+        spacer = QLabel("")
+        icon_size = hou.ui.scaledSize( 16 )
+        button_size = hou.ui.scaledSize( 24 )
+        edit_min_size = hou.ui.scaledSize( 320 )
+        label_size = hou.ui.scaledSize( 64 )
+
+        # PLUGIN
+        plugin_layout = QHBoxLayout()
+        plugin_lbl = QLabel("Plugin: ")
+        plugin_layout.addWidget(plugin_lbl)
+
+        self.plugin_combo = QComboBox(self)
+        self.plugin_combo.setToolTip("Select the plugin you wish to install.")
+        self.fill_combo_plugin()
+        self.plugin_combo.currentIndexChanged.connect(self.on_plugin_change)
+        plugin_layout.addWidget(self.plugin_combo)
+
+        # VERSION
+        version_layout = QHBoxLayout()
+        version_lbl = QLabel("Version: ")
+        version_layout.addWidget(version_lbl)
+
+        self.version_combo = QComboBox(self)
+        self.version_combo.setToolTip("Select the version of the host app.")
+        self.fill_combo_version()
+        self.version_combo.currentIndexChanged.connect(self.on_version_change)
+        version_layout.addWidget(self.version_combo)
+
+        # PLUGIN PATH
+        plugin_path_layout = QHBoxLayout()
+        plugin_path_lbl = QLabel("Plugin Path: ")
+        plugin_path_layout.addWidget(plugin_path_lbl)
+        
+        self.plugin_path = QLineEdit("")
+        self.plugin_path.setToolTip("Current path to the Houdini Engine plugin.")
+        self.plugin_path.setMinimumWidth(edit_min_size)
+        self.plugin_path.setReadOnly( True )
+        plugin_path_layout.addWidget(self.plugin_path, 1)
+        
+        self.browsePluginButton = QPushButton()
+        self.browsePluginButton.setToolTip("Browse to the HoudinI Engine plug-in's directory")
+        self.browsePluginButton.clicked.connect(self.on_browsepluginbtn_press)
+        openicon = hou.qt.createIcon( 'BUTTONS_jump', icon_size, icon_size )
+        self.browsePluginButton.setIcon(openicon)
+        self.browsePluginButton.setMaximumWidth( button_size )
+        self.browsePluginButton.setMaximumHeight( button_size )
+        plugin_path_layout.addWidget(self.browsePluginButton)
+        
+        # HENGINE GROUP
+        hengine_group = QGroupBox("Houdini Engine")
+        hengine_layout = QVBoxLayout()
+        hengine_layout.addLayout(plugin_layout)
+        hengine_layout.addLayout(version_layout)
+        hengine_layout.addLayout(plugin_path_layout)
+        hengine_group.setLayout(hengine_layout)
+
+
+
+        # HOST PATH
+        host_path_layout = QHBoxLayout()
+
+        host_path_lbl = QLabel("Path: ")
+        host_path_layout.addWidget(host_path_lbl, 0)
+        width = host_path_lbl.fontMetrics().boundingRect("Path: ").width() + 10
+        host_path_lbl.setMaximumWidth(width)
+
+        self.host_path = QLineEdit("")
+        self.host_path.setToolTip("Current path to the host application.")
+        self.host_path.setMinimumWidth( edit_min_size )
+        self.host_path.setReadOnly( True )
+        host_path_layout.addWidget(self.host_path, 1)
+
+        self.browseButton = QPushButton()
+        self.browseButton.setToolTip("Select a custom directory for the host application")
+        self.browseButton.clicked.connect(self.on_browsehostbtn_press)
+        browseicon = hou.qt.createIcon( 'BUTTONS_folder', icon_size, icon_size )
+        self.browseButton.setIcon(browseicon)
+        self.browseButton.setMaximumWidth( button_size )
+        self.browseButton.setMaximumHeight( button_size )
+        host_path_layout.addWidget(self.browseButton)
+
+        # HOST PLUGIN PATH
+        host_plugin_path_layout = QHBoxLayout()
+
+        host_plugin_path_lbl = QLabel("Plugin Path: ")
+        host_plugin_path_layout.addWidget(host_plugin_path_lbl)
+
+        self.host_plugin_path = QLineEdit("")
+        self.host_plugin_path.setToolTip("Path to the Houdini Engine plug-in install directory.")
+        self.host_plugin_path.setMinimumWidth( edit_min_size )
+        self.host_plugin_path.setReadOnly( True )
+        host_plugin_path_layout.addWidget(self.host_plugin_path)
+
+        self.browseHostPluginButton = QPushButton()
+        self.browseHostPluginButton.setToolTip("Browse to the HoudinI Engine plug-in's directory")
+        self.browseHostPluginButton.clicked.connect(self.on_browsehostpluginbtn_press)       
+        self.browseHostPluginButton.setIcon(openicon)
+        self.browseHostPluginButton.setMaximumWidth( button_size )
+        self.browseHostPluginButton.setMaximumHeight( button_size )
+        sp_retain = self.browseHostPluginButton.sizePolicy()
+        sp_retain.setRetainSizeWhenHidden( True )
+        self.browseHostPluginButton.setSizePolicy(sp_retain)
+        # self.browseHostPluginButton.setVisible( False )
+        host_plugin_path_layout.addWidget(self.browseHostPluginButton)
+
+        # HOST GROUP
+        host_group = QGroupBox("Host")
+        host_layout = QVBoxLayout()
+        host_layout.addLayout(host_path_layout)
+        host_layout.addLayout(host_plugin_path_layout)
+        host_group.setLayout(host_layout)
+
+
+        # STATUS
+        self.status = QLabel(" ")
+        self.status.setAlignment(Qt.AlignCenter)
+        self.status2 = QLabel(" ")        
+        self.status2.setAlignment(Qt.AlignCenter)
+        self.status3 = QLabel(" ")
+        self.status3.setAlignment(Qt.AlignCenter)
+
+
+        # BUTTONS
+        self.installButton = QPushButton("Install")
+        self.installButton.setToolTip("Installs or updates the selected plugin.")
+        self.installButton.clicked.connect(self.on_installbtn_press)
+
+        self.uninstallButton = QPushButton("Uninstall")
+        self.uninstallButton.setToolTip("Deletes the currently installed plugin.")
+        self.uninstallButton.clicked.connect(self.on_uninstallbtn_press)
+
+        if HOST_OS == "Win":
+            # This button is only necessary on Windows for copying files into Program Files
+            self.restartAsAdmin = QPushButton("Restart Houdini As Admin")
+            self.restartAsAdmin.setToolTip("Restarts the current Houdini Session as an Admin.\nThis is required when the host application is installed in UAC protected directory.")
+            self.restartAsAdmin.clicked.connect(self.on_restartasadminbtn_press)
+            self.restartAsAdmin.setEnabled( not is_admin() )
+
+
+        # MAIN LAYOUT
+        layout = QVBoxLayout()
+        layout.addWidget(hengine_group)
+        layout.addWidget(spacer)
+        layout.addWidget(host_group)
+        layout.addWidget(spacer)
+        layout.addWidget(self.status)
+        layout.addWidget(self.status2)
+        layout.addWidget(self.status3)
+        layout.addWidget(spacer)
+        layout.addWidget(self.installButton)
+        layout.addWidget(self.uninstallButton)
+
+        if HOST_OS == "Win":
+            layout.addWidget(self.restartAsAdmin)
+
+        self.setLayout(layout)
+
+        self.on_plugin_change(0)
+        self.on_version_change(0)
+        self.validate_buttons()
+
+    #--------------------------------------------------------------------------
+    # On Install
+    #--------------------------------------------------------------------------
+    def on_installbtn_press(self):
+        plugin = self.plugin_combo.currentText()
+        version = self.version_combo.currentText()
+        self.installer_object.on_install()
+        self.on_version_change(self.version_combo.currentIndex())
+
+    #--------------------------------------------------------------------------
+    # On Uninstall
+    #--------------------------------------------------------------------------
+    def on_uninstallbtn_press(self):
+        plugin = self.plugin_combo.currentText()
+        version = self.version_combo.currentText()
+        self.installer_object.on_uninstall()
+        self.on_version_change(self.version_combo.currentIndex())
+        
+    #--------------------------------------------------------------------------
+    # On Restart As Admin
+    #--------------------------------------------------------------------------
+    def on_restartasadminbtn_press(self):
+        if not is_admin():
+            debug("Restarting Houdini as an administrator")
+            restart_as_admin()
+            hou.exit(0)
+        else:
+            debug("Already an Admin")
+
+    #--------------------------------------------------------------------------
+    # On Browse ( HE Plugin )
+    #--------------------------------------------------------------------------            
+    def on_browsepluginbtn_press(self):
+        if not self.pluginFound:
+            hou.ui.displayMessage("Could not find the plugin directory.", ('OK',), hou.severityType.Warning)
+            
+        plugin_dir = self.installer_object.hfsPluginPath
+        explore_to( plugin_dir )
+
+    #--------------------------------------------------------------------------
+    # On Browse ( Host )
+    #--------------------------------------------------------------------------
+    def on_browsehostbtn_press(self):
+        # Open a directory open dialog
+        dlg = QFileDialog()
+        dlg.setFileMode(QFileDialog.Directory)
+        dlg.setAcceptMode(QFileDialog.AcceptOpen)
+        if ( self.hostFound ):
+            dlg.setDirectory( self.installer_object.hostPath )
+
+        if dlg.exec_():
+            # Get the path and look if a plugin was already installed there
+            host_path = dlg.selectedFiles()[0]
+            host_path = os.path.normpath(host_path)
+            self.host_path.setText( host_path )
+            self.installer_object.hostPath = host_path
+            self.hostFound = True
+            self.check_host_plugin_found()
+            self.check_plugin_found()
+            self.validate_buttons()
+
+    #--------------------------------------------------------------------------
+    # On Browse ( Host Plugin )
+    #--------------------------------------------------------------------------            
+    def on_browsehostpluginbtn_press(self):
+        if not self.hostFound:
+            hou.ui.displayMessage("Could not find the host directory.", ('OK',), hou.severityType.Warning)
+
+        plugin_dir = self.installer_object.hostPluginPath
+        explore_to( plugin_dir )
+
+
+
+###################################################################################################
+# HOUDINI ENGINE INSTALLER
+###################################################################################################
+class HoudiniEngineInstaller(object):
+
+    #--------------------------------------------------------------------------
+    def __init__(self):
+        self.houdiniVersion = HOU_VERSION;
+        self.HFS = os.path.normpath(hou.getenv("HFS"))
+        self.host = None
+        self.version = None
+        self.hostPath = None
+        self.hostPluginPath = None
+        self.hfsPluginPath = None
+        self.show_dialog()
+
+    #--------------------------------------------------------------------------
+    def show_dialog(self):
+        dialog = InstallDialog(hou.ui.mainQtWindow(), self)
+        dialog.show()
+
+    #--------------------------------------------------------------------------
+    # UNREAL 
+    #--------------------------------------------------------------------------
+    
+    # Get Unreal's install path from the registry
+    def get_unreal_install_path(self, unreal_version):
+        if HOST_OS == "Win":
+            try:
+                # build the registry path
+                registry_path = "SOFTWARE\\EpicGames\\Unreal Engine\\" + unreal_version
+                # read the registry value
+                registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, registry_path, 0, winreg.KEY_READ)
+                value, regtype = winreg.QueryValueEx(registry_key, "InstalledDirectory")
+                winreg.CloseKey(registry_key)
+                return value
+            except WindowsError:
+                return None
+        elif HOST_OS == "Mac":
+            # Use standard Unreal installation path on macOS
+            unreal_path_mac = "/Users/Shared/Epic Games/UE_" + unreal_version
+            if os.path.exists(unreal_path_mac):
+                return unreal_path_mac
+            else:
+                return None
+        else:
+            # TODO: Add Linux install path for Unreal
+            return None
+
+    # Get the unreal plugin's intall path
+    def get_unreal_plugin_path(self, unreal_path):
+            return os.path.normpath(os.path.join(unreal_path, "Engine/Plugins/Runtime/HoudiniEngine"))
+
+    # Install the Unreal plugin
+    def install_unreal( self ):
+        error = None
+        # Make sure the plugin source exist
+        if ( not os.path.isdir( self.hfsPluginPath ) ):
+            error = "Could not find the plugin in " + self.hfsPluginPath
+        else:
+            # Copy to the host plugin folder
+            try:
+                if ( os.path.isdir( self.hostPluginPath ) ):
+                    replace_content( self.hfsPluginPath, self.hostPluginPath )
+                else:
+                    copy_content( self.hfsPluginPath, self.hostPluginPath )
+            except:
+                error = "Could not copy the plugin in " + self.hfsPluginPath + "\n"
+                error += "to " + self.hostPluginPath + "\n"
+                error += "Error: " + str(sys.exc_info()[0])
+
+        if ( error == None ):
+            self.show_success_dialog("install")
+        else:
+            self.show_failure_dialog("install", error)
+
+    # Uninstall the unreal plugin
+    def uninstall_unreal( self ):
+        error = None
+        # Get the installed plugin path
+        if ( not os.path.isdir( self.hostPluginPath ) ):
+            error = "Could not find the plugin in " + self.hfsPluginPath
+        else:
+            # Delete the existing HoudiniEngine plugin folder in Unreal
+            try:
+                shutil.rmtree( self.hostPluginPath, ignore_errors=True )
+            except:
+                error = "Could not delete the plugin in " + self.hfsPluginPath + "\n"
+                error += "Error: " + str(sys.exc_info()[0])
+
+        if ( error == None ):
+            self.show_success_dialog("uninstall")
+        else:
+            self.show_failure_dialog("uninstall", error)
+
+
+    #--------------------------------------------------------------------------
+    # MAYA
+    #--------------------------------------------------------------------------
+    
+    # Get Maya's install path from the registry
+    def get_maya_install_path(self, maya_version):
+        if HOST_OS == "Win":
+            try:
+                # build the registry path
+                registry_path = "SOFTWARE\\Autodesk\\Maya\\" + maya_version + "\\Setup\\InstallPath"
+                # read the registry value
+                registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, registry_path, 0, winreg.KEY_READ)
+                value, regtype = winreg.QueryValueEx(registry_key, "MAYA_INSTALL_LOCATION")
+                winreg.CloseKey(registry_key)
+                return value
+            except WindowsError:
+                return None
+        elif HOST_OS == "Mac":
+            # Use standard Maya installation path on macOS
+            maya_path_mac = "/Users/Shared/Autodesk/modules/maya/" + maya_version
+            if os.path.exists(maya_path_mac):
+                return maya_path_mac
+            else:
+                return None
+        else:
+            # TODO: Add Linux install path for Maya
+            return None
+
+    # Get the maya plugin install path
+    def get_maya_plugin_path(self, maya_path, version):
+        if HOST_OS == "Win":
+            return os.path.normpath(os.path.join(maya_path, "modules/houdiniEngine-maya" + version))
+        elif HOST_OS == "Mac":
+            return os.path.normpath(os.path.join(maya_path, "houdiniEngine-maya" + version))
+        else:
+            return None
+
+    # Install the Maya plug-in
+    def install_maya( self ):
+        error = None
+        # Make sure the plugin source exist
+        try:
+            if ( not os.path.isfile( self.hfsPluginPath ) ):
+                error = "Could not find the plugin in " + self.hfsPluginPath
+            else:
+                # Delete the destination file if it exists
+                if ( os.path.isfile( self.hostPluginPath ) ):
+                    os.remove( self.hostPluginPath )
+
+                if HOST_OS == "Mac":
+                    replace_src = "REPLACE_WITH_DSTROOT"
+                    replace_dst = os.path.join(self.hfs_root, "Houdini Engine/maya")
+                else:
+                    replace_src = "REPLACE_WITH_HFS"
+                    replace_dst = self.HFS
+
+                # open the source module file and replace the path in the destination file
+                with open(self.hfsPluginPath, "rt") as fin:
+                    with open(self.hostPluginPath, "wt") as fout:
+                        for line in fin:
+                            fout.write(line.replace(replace_src, replace_dst))
+        except:
+            error = "Could not copy the plugin in " + self.hfsPluginPath + "\n"
+            error += "to " + self.hostPluginPath + "\n"
+            error += "Error: " + str(sys.exc_info()[0])
+
+        if ( error == None ):
+            self.show_success_dialog("install")
+        else:
+            self.show_failure_dialog("install", error)
+
+    # Uninstall the maya plug-in
+    def uninstall_maya( self ):
+        error = None
+        # Get the installed plugin path
+        if ( not os.path.isfile( self.hostPluginPath ) ):
+            error = "Could not find the plugin in " + self.hfsPluginPath
+        else:
+            # Delete the existing HoudiniEngine plugin file in maya's module folder
+            try:
+                os.remove( self.hostPluginPath )
+            except:
+                error = "Could not delete the plugin in " + self.hfsPluginPath + "\n"
+                error += "Error: " + str(sys.exc_info()[0])
+
+        if ( error == None ):
+            self.show_success_dialog("uninstall")
+        else:
+            self.show_failure_dialog("uninstall", error)
+
+    #--------------------------------------------------------------------------
+    # UNITY 
+    #--------------------------------------------------------------------------
+    
+    # Get Unity's install path from the registry
+    def get_unity_install_path(self):
+        if HOST_OS == "Win":
+            try:
+                # build the registry path
+                registry_path = "SOFTWARE\\Unity Technologies\\Installer\\Unity\\"
+                # read the registry value
+                registry_key = winreg.OpenKey(winreg.HKEY_CURRENT_USER, registry_path, 0, winreg.KEY_READ)
+                value, regtype = winreg.QueryValueEx(registry_key, "Location x64")
+                winreg.CloseKey(registry_key)
+                return value
+            except WindowsError:
+                return None
+        elif HOST_OS == "Mac":
+            # Use standard Unity installation path on macOS
+            unity_path_mac = "/Applications/Unity"
+            if os.path.exists(unity_path_mac):
+                return unity_path_mac
+            else:
+                return None
+        else:
+            # TODO: Add Linux install path for Unity
+            return None
+
+    # Opens a dialog giving instructions on how to import the unity plugin package
+    def install_unity( self ):             
+        text = "To install the Houdini Engine for Unity Plugin:\n\n"
+        text += "Please import the Unity plugin package in your Unity Project.\n\n"
+        text += "The plugin package can be found at:\n"
+        text += self.hfsPluginPath + "\n\n"
+        text += "You can press the 'Browse' button to open the folder containing the plugin's package."
+        
+        retval = hou.ui.displayMessage(text, ('Browse','OK'), hou.severityType.Message, 0, 1, None, "Unity Plugin Install" )
+        if ( retval == 0 ):
+            # Open an explorer to the plugin's directory
+            explore_to( self.hfsPluginPath )
+
+    # Opens a dialog giving instructions on how to delete the unity plugin
+    def uninstall_unity( self ):
+        text = "To uninstall the Houdini Engine for Unity Plugin:\n\n"
+        text += "Simply delete the 'HoudiniEngine' folder in your Unity Project."
+        
+        retval = hou.ui.displayMessage(text, ('OK',), hou.severityType.Message, 0, 0, None, "Unity Plugin UnInstall" )
+
+
+
+    #--------------------------------------------------------------------------
+    # 3DS MAX
+    #--------------------------------------------------------------------------
+
+    # Get 3dsMax's install path from the registry
+    def get_max_install_path(self, max_version):
+        if HOST_OS == "Win":
+            version = max_version
+            if max_version == "2017":
+                version = "19.0"
+            elif max_version == "2018":
+                version = "20.0"
+            elif max_version == "2019":
+                version = "21.0"
+            elif max_version == "2020":
+                version = "22.0"
+            elif max_version == "2021":
+                version = "23.0"
+            elif max_version == "2022":
+                version = "24.0"
+            elif max_verson == "2023":
+                version = "25.0"
+            elif max_version == "2024":
+                version = "26.0"
+            elif max_version == "2025":
+                version = "27.0"
+
+            # Try to open the first possible registry key
+            try:
+                registry_path = "SOFTWARE\\Autodesk\\3dsMax\\" + version
+                registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, registry_path, 0, winreg.KEY_READ)
+            except:
+                # Try the second registry key
+                debug( "3dsMax registry key not found" )
+                try:
+                    registry_path = "SOFTWARE\\Autodesk\\3dsMaxDesign\\" + version
+                    registry_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, registry_path, 0, winreg.KEY_READ)
+                except:
+                    debug( "3dsMaxDesign registry key not found" )
+                    return None
+
+            try:
+                # Read the install directory from registry
+                value, regtype = winreg.QueryValueEx(registry_key, "Installdir")
+                winreg.CloseKey(registry_key)
+                return value
+            except WindowsError:
+                return None
+        else:
+            # 3dsMax is not available on other platforms
+            return None
+
+    # Get the 3dsMax plugin install path
+    def get_max_plugin_path(self, max_path):
+        max_plugin_path = os.path.join(max_path, "Plugins")
+        return os.path.join(max_plugin_path, "HoudiniEngineFor3DSMax.dlu")
+
+    # Install the 3dsMax plugin
+    def install_max( self ):
+        error = None
+        # Make sure the plugin source exist
+        if ( not os.path.isfile( self.hfsPluginPath ) ):
+            error = "Could not find the plugin in " + self.hfsPluginPath
+        else:
+            try:
+                # Delete the destination file if it exists
+                if ( os.path.isfile( self.hostPluginPath ) ):
+                    os.remove( self.hostPluginPath )
+
+                # Copy to the host plugin folder
+                copy_content( self.hfsPluginPath, self.hostPluginPath )
+            except:
+                error = "Could not copy the plugin in " + self.hfsPluginPath + "\n"
+                error += "to " + self.hostPluginPath + "\n"
+                error += "Error: " + str(sys.exc_info()[0])
+
+        if ( error == None ):
+            self.show_success_dialog("install")
+        else:
+            self.show_failure_dialog("install", error)
+
+    # Uninstall the 3dsMax plugin
+    def uninstall_max( self ):
+        error = None
+        if ( not os.path.isfile( self.hostPluginPath ) ):
+            error = "Could not find the plugin in " + self.hfsPluginPath
+        else:
+            # Delete the existing HoudiniEngine plugin file in 3dsMax's plugin folder
+            try:
+                os.remove( self.hostPluginPath )
+            except:
+                error = "Could not delete the plugin in " + self.hfsPluginPath + "\n"
+                error += "Error: " + str(sys.exc_info()[0])
+
+        if ( error == None ):
+            self.show_success_dialog("uninstall")
+        else:
+            self.show_failure_dialog("uninstall", error)
+
+    #--------------------------------------------------------------------------
+    # SUCCESS DIALOG
+    #--------------------------------------------------------------------------
+    def show_success_dialog(self, mode):
+        msg = QMessageBox()
+        msg.setStyleSheet(hou.qt.styleSheet())
+        msg.setIcon(QMessageBox.Information)
+
+        if mode == "install":
+            msg.setWindowTitle("Install Successfull")
+            text = "The Houdini Engine Plugin for " + self.host + " " + self.version + " was installed successfully."
+            msg.setText( text )
+        elif mode == "uninstall":
+            msg.setWindowTitle("Uninstall Successfull")
+            text = "The Houdini Engine Plugin for " + self.host + " " + self.version + " was uninstalled successfully."
+            msg.setText( text )
+
+        text = "Please restart " + self.host + " " + self.version + "."
+        if ( self.host == "Maya" and mode == "install" ):
+            text = "The Houdini Engine plugin can now be loaded through Maya's plug-in manager."
+        msg.setInformativeText(text)
+
+        retval = msg.exec_()
+
+
+    #--------------------------------------------------------------------------
+    # FAILED DIALOG
+    #--------------------------------------------------------------------------
+    def show_failure_dialog(self, mode, error):
+        msg = QMessageBox()
+        msg.setStyleSheet(hou.qt.styleSheet())
+        msg.setIcon(QMessageBox.Critical)
+
+        if mode == "install":
+            msg.setWindowTitle("Install Failed")
+            text = "The Houdini Engine Plugin for " + self.host + " " + self.version + " failed to install properly."
+            msg.setText( text )
+        elif mode == "uninstall":
+            msg.setWindowTitle("Uninstall Failed")
+            text = "The Houdini Engine Plugin for " + self.host + " " + self.version + " could not be uninstalled properly."
+            msg.setText( text )
+
+        msg.setInformativeText( error )
+
+        retval = msg.exec_()
+
+    #--------------------------------------------------------------------------
+    # ON INSTALL
+    #--------------------------------------------------------------------------
+    def on_install(self):
+
+        debug("Houdini Version: " + self.houdiniVersion)
+        debug( "HFS Location: " + self.HFS)
+        debug( "Plugin: " + self.host + " " + self.version)
+        debug( "Host Location: " + self.hostPath)
+        debug( "Plugin source: " + self.hfsPluginPath)
+
+        if ( self.hostPluginPath != None ):
+            debug("Plugin destination: " + self.hostPluginPath)
+
+        if self.host == "Unreal":
+            self.install_result = self.install_unreal()
+        elif self.host == "Maya":
+            self.install_result = self.install_maya()
+        elif self.host == "Unity":
+            self.install_result = self.install_unity()
+        elif self.host == "3dsMax":
+            self.install_result = self.install_max()
+
+
+    #--------------------------------------------------------------------------
+    # ON UNINSTALL
+    #--------------------------------------------------------------------------
+    def on_uninstall(self):
+
+        debug("Houdini Version: " + self.houdiniVersion)
+        debug("HFS Location: " + self.HFS)
+        debug("Plugin: " + self.host + " " + self.version)
+        debug("Host Location: " + self.hostPath)
+        debug("Plugin source: " + self.hfsPluginPath)
+        if ( self.hostPluginPath != None ):
+            debug("Plugin destination: " + self.hostPluginPath)
+
+        if self.host == "Unreal":
+            self.install_result = self.uninstall_unreal()
+        elif self.host == "Maya":
+            self.install_result = self.uninstall_maya()
+        elif self.host == "Unity":
+            self.install_result = self.uninstall_unity()
+        elif self.host == "3dsMax":
+            self.install_result = self.uninstall_max()
+
+
+
+###################################################################################################
+# MAIN
+###################################################################################################
+
+HoudiniEngineInstaller()
+
+
+]]></script>
+  </tool>
+
+  <tool name="object_paintcapturelayer" label="Paint Capture Layer" icon="OBJ_STATE_paintcapturelayer">
+    <helpURL>operator:Sop/capturelayerpaint</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Animation/Rigging</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.genericCaptureTool(kwargs, 'capturelayerpaint')]]></script>
+  </tool>
+
+  <tool name="generic_hide" label="Hide" icon="SHELF_hide">
+    <helpURL>tool:hide</helpURL>
+    <script scriptType="python"><![CDATA[import toolutils
+
+active_pane = toolutils.activePane(kwargs)
+prompt = toolutils.selectionPrompt(hou.objNodeTypeCategory())
+selected_objects = list(active_pane.selectObjects(prompt))
+for object in selected_objects:
+    object.setDisplayFlag( False )
+toolutils.genericStateTool(kwargs, 'objview')]]></script>
+  </tool>
+
+  <tool name="generic_delete" label="Delete" icon="SOP_delete">
+    <helpURL>operator:Sop/delete</helpURL>
+    <script scriptType="python"><![CDATA[import toolutils
+import soptoolutils
+import doptoolutils
+
+
+# find out curr context
+active_pane = toolutils.activePane(kwargs)
+if active_pane is not None and \
+    active_pane.type() == hou.paneTabType.ContextViewer:
+    active_pane = active_pane.sceneViewer()
+
+if active_pane is None or active_pane.type() != hou.paneTabType.SceneViewer:
+    raise hou.Error("The tool was not invoked in the scene viewer.")
+
+# we determine what selection type we should consider (ie, OBJ, SOP,
+#  DOP) based on the viewer network path and the child type
+scene_viewer = active_pane
+child_type   = scene_viewer.pwd().childTypeCategory()
+
+if child_type == hou.objNodeTypeCategory():
+    # object context: delete the object nodes
+    prompt = toolutils.selectionPrompt(hou.objNodeTypeCategory())
+    selected_objects = list(scene_viewer.selectObjects(prompt))
+    for object in selected_objects:
+        object.destroy()
+    scene_viewer.setCurrentState('select')
+
+elif child_type == hou.sopNodeTypeCategory():
+    # geometry context: delete the component (points, edges, primitives)
+    prompt = toolutils.selectionPrompt(hou.sopNodeTypeCategory())
+    # we cannot consume the selection here as the tool we launch will
+    # need to use it, i.e., we act as a preliminary select state here.
+    selection = scene_viewer.selectGeometry(prompt=prompt,
+                                            consume_selections=False)
+    type = selection.geometryType()
+    if type == hou.geometryType.Primitives \
+             or type == hou.geometryType.Points \
+             or not selection.primitiveTypes():
+        node = soptoolutils.genericTool(kwargs, 'blast')
+        node.parm('removegrp').set(True)
+    else:
+        soptoolutils.genericTool(kwargs, 'dissolve::2.0')
+elif child_type == hou.dopNodeTypeCategory():
+    # dynamics context: remove object or modifier from simulation
+    # obtain the selection and separate objects from modifiers
+    prompt = toolutils.selectionPrompt(hou.dopNodeTypeCategory())
+    selected_dops = list(scene_viewer.selectDynamics(prompt, 0, True, True))
+    dop_objects = []
+    dop_modifiers = []
+    for dop in selected_dops:
+        if isinstance(dop, hou.DopObject):
+            dop_objects.append( dop )
+        elif isinstance(dop, hou.DopData):
+            dop_modifiers.append( dop )
+    # call functions that remove the dop data and modifiers from simulation
+    if len(dop_objects) > 0:
+        doptoolutils.dopObjectsRemoveFromSimulation(dop_objects)
+    if len(dop_modifiers) > 0:
+        doptoolutils.dopModifiersRemoveFromSimulation(dop_modifiers)
+
+]]></script>
+  </tool>
+
+  <tool name="generic_cleartexcache" label="Clear Texture Cache" icon="SHELF_clear_texture_cache">
+    <helpURL>tool:cleartexcache</helpURL>
+    <script scriptType="hscript"><![CDATA[texcache -c]]></script>
+  </tool>
+
+  <tool name="sop_fuse::2.0" label="Fuse" icon="SOP_fuse">
+    <helpURL>operator:Sop/fuse#fuse</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import soptoolutils
+kwargs['parms'] = { 'consolidatesnappedpoints': True }
+soptoolutils.genericTool(kwargs, 'fuse::2.0')
+]]></script>
+  </tool>
+
+  <tool name="geometry_snap" label="Snap" icon="SOP_fuse">
+    <helpURL>operator:Sop/fuse#snap</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import soptoolutils
+kwargs['parms'] = { 'consolidatesnappedpoints': False }
+soptoolutils.genericTool(kwargs, 'fuse::2.0', 'snap1')
+]]></script>
+  </tool>
+
+  <tool name="sop_uvproject" label="UV Project" icon="SOP_uvproject">
+    <helpURL>operator:Sop/uvproject</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/uvproject</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Texturing/UV</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import soptoolutils
+
+sop = soptoolutils.addUVTool(kwargs, 'uvproject', 'uvattrib')
+# compute the geometry bounding box and use it for the projection plane
+sop.parm('initbbox').pressButton()
+]]></script>
+  </tool>
+
+  <tool name="sop_uvfuse" label="UV Fuse" icon="SOP_uvfuse">
+    <helpURL>operator:Sop/uvfuse</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/uvfuse</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Texturing/UV</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import soptoolutils
+
+sop = soptoolutils.addUVTool(kwargs, 'uvfuse', 'uvattrib')
+]]></script>
+  </tool>
+
+  <tool name="sop_texture" label="UV Texture" icon="SOP_texture">
+    <helpURL>operator:Sop/texture</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/texture</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Texturing/UV</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import soptoolutils
+
+sop = soptoolutils.addUVTool(kwargs, 'texture', 'uvattrib')
+]]></script>
+  </tool>
+
+  <tool name="sop_uvpelt::2.0" label="UV Pelt" icon="SOP_uvpelt">
+    <helpURL>operator:Sop/uvpelt?version=2.0</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/uvpelt</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Texturing/UV</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import soptoolutils
+
+sop = soptoolutils.addUVTool(kwargs, 'uvpelt::2.0', 'uvattrib')
+]]></script>
+  </tool>
+
+  <tool name="sop_uvunwrap" label="UV Unwrap" icon="SOP_uvunwrap">
+    <helpURL>operator:Sop/uvunwrap</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/uvunwrap</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Texturing/UV</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import soptoolutils
+
+sop = soptoolutils.addUVTool(kwargs, 'uvunwrap', 'uvattrib')
+]]></script>
+  </tool>
+
+  <tool name="sop_uvtransform::2.0" label="UV Transform" icon="SOP_uvtransform">
+    <helpURL>operator:Sop/uvtransform?version=2.0</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/uvtransform::2.0</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Texturing/UV</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import soptoolutils
+
+sop = soptoolutils.addUVTool(kwargs, 'uvtransform::2.0', 'uvattrib')
+]]></script>
+  </tool>
+
+  <tool name="sop_uvedit" label="UV Edit" icon="SOP_uvedit">
+    <helpURL>operator:Sop/uvedit</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/uvedit</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Texturing/UV</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import soptoolutils
+
+sop = soptoolutils.addUVTool(kwargs, 'uvedit', 'uvattrib')
+]]></script>
+  </tool>
+
+  <tool name="object_lagobject" label="Lag" icon="CHOP_lag">
+    <helpURL>tool:lagobject</helpURL>
+    <script scriptType="python"><![CDATA[import toolutils
+import choptoolutils
+
+def addLag(input_chop, source_name):
+    lag_chop = input_chop.parent().createNode("lag", source_name + "_lag1")
+    lag_chop.setInput(0, input_chop)
+    lag_chop.moveToGoodPosition()
+    lag_chop.parm("scope").set("t[xyz]")
+    return lag_chop
+
+scene_viewer = toolutils.sceneViewer()
+
+targets = list(scene_viewer.selectObjects(
+    prompt = "Select object to lag and press Enter to complete.",
+    allow_multisel = False))
+if len(targets) == 0:
+    raise hou.Error("Nothing was selected.")
+target = targets[0]
+target.setSelected(False)
+
+sources = list(scene_viewer.selectObjects(
+    prompt = "Now select object to follow, if any, and press Enter to complete.",
+    allow_multisel = False))
+source = None
+if len(sources) > 0:
+    source = sources[0]
+    source.setSelected(False)
+
+(obj_chop, lag_chop, output_chop) = choptoolutils.modifyObjectTool(
+    'lag', source, target, addLag)
+
+output_chop.setExportFlag(True)
+
+choptoolutils.visualizeParmEffect(lag_chop, output_chop)]]></script>
+  </tool>
+
+  <tool name="geometry_file" label="File" icon="SOP_file">
+    <helpURL>operator:Sop/file</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>File IO/Import</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.chooseAndOpenGeoFile(kwargs, True)]]></script>
+  </tool>
+
+  <tool name="object_jiggleobject" label="Jiggle" icon="CHOP_jiggle">
+    <helpURL>tool:jiggleobject</helpURL>
+    <script scriptType="python"><![CDATA[import toolutils
+import choptoolutils
+
+def addJiggle(input_chop, source_name):
+    chop = input_chop.parent().createNode("jiggle", source_name + "_jiggle1")
+    chop.setInput(0, input_chop)
+    chop.moveToGoodPosition()
+    return chop
+
+scene_viewer = toolutils.sceneViewer()
+
+targets = list(scene_viewer.selectObjects(
+    prompt = "Select object to jiggle and press Enter to complete.",
+    allow_multisel = False))
+if len(targets) == 0:
+    raise hou.Error("Nothing was selected.")
+target = targets[0]
+target.setSelected(False)
+
+sources = list(scene_viewer.selectObjects(
+    prompt = "Now select object to follow, if any, and press Enter to complete.",
+    allow_multisel = False))
+source = None
+if len(sources) > 0:
+    source = sources[0]
+    source.setSelected(False)
+
+(obj_chop, jiggle_chop, output_chop) = choptoolutils.modifyObjectTool(
+    'jiggle', source, target, addJiggle)
+
+output_chop.setExportFlag(True)
+
+choptoolutils.visualizeParmEffect(jiggle_chop, output_chop)]]></script>
+  </tool>
+
+  <tool name="geometry_paintcolorvolume" label="Volume Paint Color" icon="SOP_paintcolorvolume">
+    <helpURL>operator:Sop/paintcolorvolume</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Volume</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import stroketoolutils
+
+kwargs['type'] = "color"
+stroketoolutils.strokeSource(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="geometry_paintfogvolume" label="Volume Paint Fog" icon="SOP_paintfogvolume">
+    <helpURL>operator:Sop/paintfogvolume</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Volume</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import stroketoolutils
+
+kwargs['type'] = "fog"
+stroketoolutils.strokeSource(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="geometry_paintsdfvolume" label="Volume Paint SDF" icon="SOP_paintsdfvolume">
+    <helpURL>operator:Sop/paintsdfvolume</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Volume</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import stroketoolutils
+
+kwargs['type'] = "sdf"
+stroketoolutils.strokeSource(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="geometry_drawcurve" label="Draw Curve" icon="SOP_drawcurve">
+    <helpURL>operator:Sop/drawcurve</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Curves</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import stroketoolutils
+
+kwargs['type'] = "curve"
+stroketoolutils.strokeSource(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="geometry_spraypaint" label="Spray Paint" icon="SOP_spraypaint">
+    <helpURL>operator:Sop/spraypaint</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Points</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import stroketoolutils
+
+kwargs['type'] = "spraypaint"
+stroketoolutils.strokeSource(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="geometry_volumerasterizepoints" label="Fog Points" icon="SOP_volumerasterizepoints">
+    <helpURL>operator:Sop/volumerasterizepoints</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Volume</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import stroketoolutils
+
+kwargs['type'] = "points"
+stroketoolutils.volumerasterizeSource(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="geometry_volumerasterizeparticles" label="Fog Particles" icon="SOP_volumerasterizeparticles">
+    <helpURL>operator:Sop/volumerasterizeparticles</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Volume</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import stroketoolutils
+
+kwargs['type'] = "particles"
+stroketoolutils.volumerasterizeSource(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="geometry_volumerasterizecurve" label="Fog Curve" icon="SOP_volumerasterizecurve">
+    <helpURL>operator:Sop/volumerasterizecurve</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Volume</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import stroketoolutils
+
+kwargs['type'] = "curve"
+stroketoolutils.volumerasterizeSource(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="geometry_vdbfrompolygons" label="SDF Polys" icon="SOP_vdbfrompolygons">
+    <helpURL>operator:Sop/vdbfrompolygons</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Volume/VDB</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import volumetoolutils
+
+kwargs['volumetype'] = "vdb"
+kwargs['optype'] = "frompolygons"
+
+volumetoolutils.volumeSource(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="geometry_vdbfromparticles" label="SDF Particles" icon="SOP_vdbfromparticles">
+    <helpURL>operator:Sop/vdbfromparticles</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Volume/VDB</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import volumetoolutils
+
+kwargs['volumetype'] = "vdb"
+kwargs['optype'] = "fromparticles"
+
+volumetoolutils.volumeSource(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="geometry_convertvdb" label="Convert VDB" icon="SOP_convertvdb">
+    <helpURL>operator:Sop/convertvdb</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Convert</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+
+import volumetoolutils
+
+kwargs['volumetype'] = "vdb"
+kwargs['optype'] = "convert"
+
+volumetoolutils.volumeSource(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="object_editcaptureblend" label="Edit Capture Blends" icon="OBJ_STATE_editcaptureblend">
+    <helpURL>tool:editcaptureblends</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Animation/Rigging</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+
+objecttoolutils.customStateTool(kwargs, 'editcaptureblend')]]></script>
+  </tool>
+
+  <tool name="object_editcaptureweight" label="Edit Capture Weights" icon="OBJ_STATE_editcaptureweight">
+    <helpURL>tool:editcaptureweights</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Animation/Rigging</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+
+objecttoolutils.customStateTool(kwargs, 'editcaptureweight')]]></script>
+  </tool>
+
+  <tool name="object_mirrorcapture" label="Mirror Capture Weights" icon="OBJ_STATE_mirrorcapture">
+    <helpURL>tool:mirrorcaptureweights</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Animation/Rigging</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+
+objecttoolutils.customStateTool(kwargs, 'mirrorcapture')]]></script>
+  </tool>
+
+  <tool name="object_editcaptureregion" label="Edit Capture Regions" icon="OBJ_STATE_editcaptureregion">
+    <helpURL>tool:editcaptureregions</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Animation/Rigging</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+
+objecttoolutils.customStateTool(kwargs, 'editcaptureregion')]]></script>
+  </tool>
+
+  <tool name="object_constraintparentblend" label="Parent Blend" icon="SHELF_parent">
+    <helpURL>tool:constraintparentblend</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Constraints</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+
+objecttoolutils.constraintparentblendStateTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="object_constraintblend" label="Blend" icon="OBJ_blend">
+    <helpURL>tool:constraintblend</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Constraints</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+
+objecttoolutils.constraintblendStateTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="object_constraintlookat" label="Look At" icon="SHELF_lookat">
+    <helpURL>tool:constraintlookat</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>LOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Constraints</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+import loptoolutils
+import toolutils
+
+cwd = toolutils.sceneViewer().pwd()
+mod = loptoolutils if cwd.childTypeCategory() == hou.lopNodeTypeCategory() else objecttoolutils
+mod.constraintlookatStateTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="object_constraintpath" label="Follow Path" icon="SHELF_followpath">
+    <helpURL>tool:constraintpath</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>LOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Constraints</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+import loptoolutils
+import toolutils
+
+cwd = toolutils.sceneViewer().pwd()
+mod = loptoolutils if cwd.childTypeCategory() == hou.lopNodeTypeCategory() else objecttoolutils
+mod.constraintpathStateTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="object_constraintsurface" label="Surface" icon="OBJ_sticky">
+    <helpURL>tool:constraintsurface</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>LOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Constraints</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+import loptoolutils
+import toolutils
+
+cwd = toolutils.sceneViewer().pwd()
+mod = loptoolutils if cwd.childTypeCategory() == hou.lopNodeTypeCategory() else objecttoolutils
+mod.constraintsurfaceStateTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="object_constraintpoints" label="Points" icon="OBJ_rivet">
+    <helpURL>tool:constraintpoints</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>LOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Constraints</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+import loptoolutils
+import toolutils
+
+cwd = toolutils.sceneViewer().pwd()
+mod = loptoolutils if cwd.childTypeCategory() == hou.lopNodeTypeCategory() else objecttoolutils
+mod.constraintpointsStateTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="object_constraintgamepad" label="Gamepad" icon="CHOP_gamepad">
+    <helpURL>tool:constraintgamepad</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Constraints</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+
+objecttoolutils.constraintgamepadStateTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="object_constrainttransform" label="Transform Constraint" icon="CHOP_constrainttransform">
+    <helpURL>tool:transformconstraint</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>LOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Constraints</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+import loptoolutils
+import toolutils
+
+cwd = toolutils.sceneViewer().pwd()
+if cwd.childTypeCategory() == hou.lopNodeTypeCategory():
+    loptoolutils.constraintparentStateTool(kwargs)
+else:
+    objecttoolutils.constrainttransformStateTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="object_constraintdelete" label="Delete Constraint" icon="SOP_delete">
+    <helpURL>tool:constraintdelete</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Constraints</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+objecttoolutils.constraintdeleteStateTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="geometry_spyro_airexplosion" label="Simple Aerial Explosion" icon="SHELF_aerial_explosion">
+    <helpURL>tool:spyro_simpleairexplosion</helpURL>
+    <script scriptType="python"><![CDATA[
+import dopsparsepyrotools
+dopsparsepyrotools.createAerialExplosion(kwargs, False)
+]]></script>
+  </tool>
+
+  <tool name="geometry_spyro_gputorch" label="Simple GPU Torch" icon="SHELF_torch">
+    <helpURL>tool:spyro_gputorch</helpURL>
+    <script scriptType="python"><![CDATA[
+import dopsparsepyrotools
+dopsparsepyrotools.sopGPUTorch(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="geometry_spyro_gpuburst" label="Simple GPU Ground Explosion" icon="SHELF_spyro_gpuburst">
+    <helpURL>tool:spyro_simplegpuexplosion</helpURL>
+    <script scriptType="python"><![CDATA[
+import dopsparsepyrotools
+dopsparsepyrotools.sopGPUBurst(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="geometry_muzzleflash" label="Simple Muzzle Flash" icon="SHELF_muzzle_flash">
+    <helpURL>tool:pyrosimplemuzzleflash</helpURL>
+    <script scriptType="python"><![CDATA[
+import dopsparsepyrotools
+dopsparsepyrotools.sopMuzzleFlash(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="geometry_spyro_shockwave" label="Simple Shockwave" icon="SHELF_shockwave">
+    <helpURL>tool:pyrosimpleshockwave</helpURL>
+    <script scriptType="python"><![CDATA[
+import dopsparsepyrotools
+dopsparsepyrotools.createFireballShockwave(kwargs, False)
+]]></script>
+  </tool>
+
+  <tool name="geometry_spyro_campfire" label="Simple Bonfire" icon="SHELF_campfire">
+    <helpURL>tool:spyro_simplecampfire</helpURL>
+    <script scriptType="python"><![CDATA[
+import dopsparsepyrotools
+dopsparsepyrotools.createBonfire(kwargs, False)
+]]></script>
+  </tool>
+
+  <tool name="geometry_pyrosimplefirespread" label="Simple Spreading Fire" icon="SHELF_spyro_firespread">
+    <helpURL>tool:pyrosimplefirespread</helpURL>
+    <script scriptType="python"><![CDATA[
+import dopsparsepyrotools
+
+node = dopsparsepyrotools.createSopSpreadingFire(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="geometry_pyrosimplefireball" label="Simple Fireball" icon="SHELF_fireball">
+    <helpURL>tool:pyrosimplefireball</helpURL>
+    <script scriptType="python"><![CDATA[
+import dopsparsepyrotools
+dopsparsepyrotools.createFireball(kwargs, False)
+]]></script>
+  </tool>
+
+  <tool name="geometry_pyrosimplebillowysmoke" label="Simple Billowy Smoke" icon="SHELF_smoke_heavy">
+    <helpURL>tool:pyrosimplebillowysmoke</helpURL>
+    <script scriptType="python"><![CDATA[
+import dopsparsepyrotools
+dopsparsepyrotools.createBillowySmoke(kwargs, False)
+]]></script>
+  </tool>
+
+  <tool name="geometry_vellumsimplecloth" label="Simple Cloth" icon="SHELF_vellum_simplecloth">
+    <helpURL>tool:vellumsimplecloth</helpURL>
+    <script scriptType="python"><![CDATA[
+import doptoolutils
+import doppoptoolutils
+
+node = doppoptoolutils.createSopVellum(kwargs, 'cloth')
+]]></script>
+  </tool>
+
+  <tool name="geometry_vellumsimplesoftbody" label="Simple Softbody" icon="SHELF_vellum_softbody">
+    <helpURL>tool:vellumsimplesoftbody</helpURL>
+    <script scriptType="python"><![CDATA[
+import doptoolutils
+import doppoptoolutils
+
+node = doppoptoolutils.createSopVellum(kwargs, 'softbody')
+]]></script>
+  </tool>
+
+  <tool name="geometry_rbdsimplefracture" label="Simple Fracture" icon="SOP_rbdmaterialfracture">
+    <helpURL>operator:Sop/rbdmaterialfracture</helpURL>
+    <script scriptType="python"><![CDATA[
+import doprbdtoolutils
+
+node = doprbdtoolutils.createSopRBD(kwargs, 'fracture')
+]]></script>
+  </tool>
+
+  <tool name="geometry_rbdsimpleguided" label="Simple Guided RBDs" icon="SHELF_rbd_guided">
+    <helpURL>tool:rbdsimpleguided</helpURL>
+    <script scriptType="python"><![CDATA[
+import doprbdtoolutils
+
+node = doprbdtoolutils.createSopRBD(kwargs, 'guided sim')
+]]></script>
+  </tool>
+
+  <tool name="sop_metaball" label="Metaball" icon="SOP_metaball">
+    <helpURL>operator:Sop/metaball</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/metaball</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Metaball</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+kwargs['bbox'] = hou.BoundingBox(-0.5, -0.5, -0.5, 0.5, 0.5, 0.5)
+soptoolutils.genericTool(kwargs, 'metaball', merge_context=True)]]></script>
+  </tool>
+
+  <tool name="geometry_knife" label="Knife" icon="SHELF_knife">
+    <helpURL>operator:Sop/clip</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/clip</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+import toolutils
+from soptoolutils import OrientInfo
+
+kwargs['parms'] = { 'clipop': 'both' }
+knife_sop = soptoolutils.genericTool(kwargs, 'clip::2.0', 'knife1', custom = False,
+                                     orient = OrientInfo('dir'))
+del kwargs['parms']
+knife_sop.setCreatorState('knife')
+knife_sop.setBuiltExplicitly(False)
+activepane = toolutils.activePane(kwargs)
+if isinstance(activepane, hou.SceneViewer):
+    sceneviewer = toolutils.sceneViewer()
+    knife_sop.setCurrent(True, True)
+    sceneviewer.enterCurrentNodeState()
+    sceneviewer.runStateCommand("knife")
+]]></script>
+  </tool>
+
+  <tool name="sop_clip::2.0" label="Clip" icon="SOP_clip">
+    <helpURL>operator:Sop/clip</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+import toolutils
+from soptoolutils import OrientInfo
+
+clip_sop = soptoolutils.genericTool(kwargs, 'clip::2.0', orient = OrientInfo('dir'))
+activepane = toolutils.activePane(kwargs)
+if isinstance(activepane, hou.SceneViewer) and clip_sop:
+    inputgeo = clip_sop.inputGeometry(0)
+    if inputgeo:
+        clip_sop.parmTuple('origin').set(inputgeo.boundingBox().center())]]></script>
+  </tool>
+
+  <tool name="object_movetopivot" label="Move Center to Pivot" icon="SHELF_move_center_to_pivot">
+    <helpURL>tool:movetopivot</helpURL>
+    <script scriptType="python"><![CDATA[import toolutils
+
+scene_viewer = None
+activepane = toolutils.activePane(kwargs)
+parent = activepane.pwd()
+if activepane.type() != hou.paneTabType.SceneViewer:
+    # Use the last selected object
+    if parent.childTypeCategory() != hou.objNodeTypeCategory():
+        raise hou.Error("This tool cannot be executed in this context")
+    selected = [child for child in parent.children() if child.isSelected()]
+else:
+    scene_viewer = toolutils.sceneViewer()
+    selected = scene_viewer.selectObjects(
+                prompt = toolutils.selectionPrompt(hou.objNodeTypeCategory()),
+                allow_multisel = True,
+                allowed_types = ("geo",))
+
+if len(selected) == 0:
+    raise hou.Error("Nothing was selected")
+
+for center_obj in selected:
+    display = center_obj.displayNode()
+    if display:
+        geo = display.geometry()
+        pivot = geo.boundingBox().center()
+        sop = center_obj.createNode('xform', 'move_to_pivot1')
+        sop.setInput(0, display)
+        sop.moveToGoodPosition()
+        sop.setDisplayFlag(True)
+        if display.isRenderFlagSet():
+            sop.setRenderFlag(True)
+        sop.parmTuple("t").set(-pivot)
+        sop.parmTuple("p").set( pivot)
+
+if scene_viewer is not None:
+    scene_viewer.setCurrentState("pose")]]></script>
+  </tool>
+
+  <tool name="object_constraintbake" label="Bake Constraint" icon="SHELF_constraint_bake">
+    <helpURL>tool:bakeconstraints</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Constraints</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+objecttoolutils.constraintbakeStateTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="object_centerpivot" label="Move Pivot to Center" icon="SHELF_center_pivot">
+    <helpURL>tool:centerpivot</helpURL>
+    <script scriptType="python"><![CDATA[import toolutils
+
+scene_viewer = None
+activepane = toolutils.activePane(kwargs)
+parent = activepane.pwd()
+if activepane.type() != hou.paneTabType.SceneViewer:
+    # Use the last selected object
+    if parent.childTypeCategory() != hou.objNodeTypeCategory():
+        raise hou.Error("This tool cannot be executed in this context")
+    selected = [child for child in parent.children() if child.isSelected()]
+else:
+    scene_viewer = toolutils.sceneViewer()
+    selected = scene_viewer.selectObjects(
+                prompt = toolutils.selectionPrompt(hou.objNodeTypeCategory()),
+                allow_multisel = True,
+                allowed_types = ("geo",))
+
+if len(selected) == 0:
+    raise hou.Error("Nothing was selected")
+
+for center_obj in selected:
+    display = center_obj.displayNode()
+    if display is None:
+        pivot = hou.Vector3(0, 0, 0)        # Use 0,0,0 by convention
+    else:
+        geo = display.geometry()
+        pivot = geo.boundingBox().center()
+    center_obj.parmTuple("p").set(pivot)
+
+if scene_viewer is not None:
+    scene_viewer.setCurrentState("pose")]]></script>
+  </tool>
+
+  <tool name="object_bakeanimation" label="Bake Animation" icon="ROP_bake_animation">
+    <helpURL>operator:Driver/bake_animation</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Constraints</toolSubmenu>
+    <script scriptType="python"><![CDATA[import objecttoolutils
+objecttoolutils.bakeanimationStateTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="rigging_ikfromobjects" label="IK from Objects" icon="OBJ_autorig_blank">
+    <helpURL>tool:rigging_ikfromobjects</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Animation/Rigging</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+from rigtoolutils import iktwisttool
+iktwisttool.invokeTool(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="rigging_ikfrombones" label="IK from Bones" icon="OBJ_autorig_blank">
+    <helpURL>tool:rigging_ikfrombones</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Animation/Rigging</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+from rigtoolutils import boneiktwisttool
+boneiktwisttool.invokeTool(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="sop_polybevel::3.0" label="PolyBevel" icon="SOP_polybevel">
+    <helpURL>operator:Sop/polybevel?version=3.0</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/polybevel::3.0</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Polygons</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+soptoolutils.addPolyBevelTool(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="sop_uvflatten::3.0" label="UV Flatten" icon="SOP_uvflatten">
+    <helpURL>operator:Sop/uvflatten?version=3.0</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/uvflatten::3.0</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Texturing/UV</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+soptoolutils.addUVFlattenTool(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="quickshapes" label="Quick Shapes" icon="SHELF_quick_shapes">
+    <helpURL>tool:quickshapes</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+      <contextNetType>LOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Primitive</toolSubmenu>
+    <script scriptType="python"><![CDATA[import toolutils
+
+scene_viewer = toolutils.sceneViewer()
+network = scene_viewer.pwd()
+if network.childTypeCategory() == hou.lopNodeTypeCategory():
+    scene_viewer.setCurrentState("sidefx_quickshapes_lop")
+else:
+    scene_viewer.setCurrentState("sidefx_quickshapes")]]></script>
+  </tool>
+
+  <tool name="object_groom" label="Groom" icon="FUR_guidegroom">
+    <helpURL>tool:groom_groom</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Character FX/Hair and Fur</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import furtoolutils
+furtoolutils.createFurAndStartGrooming(kwargs)]]></script>
+  </tool>
+
+  <tool name="object_groom_addfur" label="Add Fur" icon="FUR_add_fur">
+    <helpURL>tool:groom_addfur</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Character FX/Hair and Fur</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import furtoolutils
+furtoolutils.addFurTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="object_groom_guidegroomempty" label="Create Empty Guide Groom" icon="FUR_guidegroom">
+    <helpURL>tool:groom_emptyguidegroom</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Character FX/Hair and Fur</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import furtoolutils
+furtoolutils.guideGroomEmptyTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="object_groom_guidegroom" label="Create Guides" icon="FUR_guidegroom">
+    <helpURL>tool:groom_guidegroom</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Character FX/Hair and Fur</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import furtoolutils
+furtoolutils.guideGroomTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="object_groom_groommerge" label="Merge Groom Objects" icon="FUR_groommerge">
+    <helpURL>tool:groom_groommerge</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Character FX/Hair and Fur</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import furtoolutils
+furtoolutils.groomMergeTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="object_groom_animateguides" label="Deform Guides" icon="FUR_animate">
+    <helpURL>tool:groom_animateguides</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Character FX/Hair and Fur</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import furtoolutils
+furtoolutils.animateGuidesTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="object_groom_simguides" label="Simulate Guides" icon="FUR_add_dynamics">
+    <helpURL>tool:groom_simguides</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Character FX/Hair and Fur</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import furtoolutils
+furtoolutils.simGuidesTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="object_groom_hairgen" label="Generate Hair" icon="FUR_hairgen">
+    <helpURL>tool:groom_hairgen</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Character FX/Hair and Fur</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import furtoolutils
+furtoolutils.hairGenTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="object_groom_haircardgen" label="Generate Hair Cards" icon="FUR_haircardgen">
+    <helpURL>tool:groom_haircardgen</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Character FX/Hair and Fur</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import furtoolutils
+furtoolutils.hairCardGenTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="object_groom_togglehairdisplay" label="Toggle Display" icon="FUR_toggle_display">
+    <helpURL>tool:groom_togglehairdisplay</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Character FX/Hair and Fur</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import furtoolutils
+furtoolutils.toggleHairDisplayTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="object_groom_isolateparts" label="Isolate Groom Parts" icon="FUR_isolate_parts">
+    <helpURL>tool:groom_isolateparts</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Character FX/Hair and Fur</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import furtoolutils
+furtoolutils.isolateGroomParts(kwargs)]]></script>
+  </tool>
+
+  <tool name="object_groom_haircardtexture" label="Hair Card Texture" icon="FUR_haircardtex">
+    <helpURL>tool:groom_haircardtexture</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Character FX/Hair and Fur</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import furtoolutils
+furtoolutils.hairCardTextureTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="sop_groom_reguide" label="Reguide" icon="FUR_reguide">
+    <helpURL>tool:reguide</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Character FX/Hair and Fur</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import furtoolutils
+furtoolutils.reguideTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="sop_groom_drawpartingline" label="Part Guides" icon="FUR_addparting">
+    <helpURL>tool:drawpartingline</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Character FX/Hair and Fur</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import furtoolutils
+furtoolutils.drawPartingLineTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="sop_groom_guideinit" label="Initialize Guides" icon="FUR_initialize_guides">
+    <helpURL>tool:sop_groom_guideinit</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Character FX/Hair and Fur</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import furtoolutils
+furtoolutils.guideInitTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="sop_groom_guideprocess_setdir" label="Set Guide Direction" icon="FUR_comb">
+    <helpURL>tool:sop_groom_guideprocess_setdir</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Character FX/Hair and Fur</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import furtoolutils
+furtoolutils.guideProcessTool(kwargs, 'setdirvec')]]></script>
+  </tool>
+
+  <tool name="sop_groom_guideprocess_length" label="Set Guide Length" icon="FUR_paint_length">
+    <helpURL>tool:sop_groom_guideprocess_length</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Character FX/Hair and Fur</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import furtoolutils
+furtoolutils.guideProcessTool(kwargs, 'setlength')]]></script>
+  </tool>
+
+  <tool name="sop_groom_guideprocess_lift" label="Lift Guides" icon="FUR_lift_hair">
+    <helpURL>tool:sop_groom_guideprocess_lift</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Character FX/Hair and Fur</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import furtoolutils
+furtoolutils.guideProcessTool(kwargs, 'setlift')]]></script>
+  </tool>
+
+  <tool name="sop_groom_guideprocess_bend" label="Bend Guides" icon="FUR_orientation">
+    <helpURL>tool:sop_groom_guideprocess_bend</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Character FX/Hair and Fur</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import furtoolutils
+furtoolutils.guideProcessTool(kwargs, 'bend')]]></script>
+  </tool>
+
+  <tool name="sop_groom_guideprocess_straighten" label="Straighten Guides" icon="FUR_paint_straighten">
+    <helpURL>tool:sop_groom_guideprocess_straighten</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Character FX/Hair and Fur</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import furtoolutils
+furtoolutils.guideProcessTool(kwargs, 'straighten')]]></script>
+  </tool>
+
+  <tool name="sop_groom_guideprocess_smooth" label="Smooth Guides" icon="FUR_smooth">
+    <helpURL>tool:sop_groom_guideprocess_smooth</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Character FX/Hair and Fur</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import furtoolutils
+furtoolutils.guideProcessTool(kwargs, 'smooth')]]></script>
+  </tool>
+
+  <tool name="sop_groom_guideprocess_frizz" label="Frizz Guides" icon="FUR_paint_frizz">
+    <helpURL>tool:sop_groom_guideprocess_frizz</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Character FX/Hair and Fur</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import furtoolutils
+furtoolutils.guideProcessTool(kwargs, 'frizz')]]></script>
+  </tool>
+
+  <tool name="sop_groom_hairclump" label="Clump Guides" icon="FUR_paint_clumping">
+    <helpURL>tool:sop_groom_hairclump</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Character FX/Hair and Fur</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import furtoolutils
+furtoolutils.clumpHairTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="sop_groom_whitehair" label="Add White Hairs" icon="FUR_paint_white_density">
+    <helpURL>tool:sop_groom_whitehair</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Character FX/Hair and Fur</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import furtoolutils
+furtoolutils.whiteHairTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="sop_groom_curveadvect" label="Curve Advect" icon="SOP_guideadvect">
+    <helpURL>tool:sop_groom_curveadvect</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Character FX/Hair and Fur</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import furtoolutils
+furtoolutils.curveAdvectTool(kwargs)]]></script>
+  </tool>
+
+  <tool name="finalization_checklist" label="Finalization Checklist" icon="D:/beingVulnurable/2508_Houdini_Assets/2508_shelf_checklist/icon/check_icon.png">
+    <script scriptType="python"><![CDATA[# Houdini Shelf Tool: Finalization Checklist (Qt) + Screenshot + Persistent State (no modal popup)
+import os, time, json
+import hou
+from PySide2 import QtWidgets, QtCore, QtGui
+
+CHECK_ITEMS = [
+    "No error flags (red) or critical warnings anywhere in the network.",
+    "All external file paths are relative ($HIP, $JOB) â no C:/Users/... hard paths.",
+    "Parameters behave as intended; key sliders/ramps donât nuke the graph.",
+    "Procedural chains still work after changing inputs (robustness sanity check).",
+    "Unused test geometry/nodes removed or bypassed (scene hygiene).",
+    "Node names are clear and grouped; network annotated with sticky notes/colors.",
+    "Temporary debugging/visualization nodes are removed or bypassed.",
+    "Basic lighting rig in place (no default headlight in finals).",
+    "Shot camera(s) framed and locked (avoid accidental nudges).",
+    "Shaders finalized or clean procedural placeholders (no default gray giveaways).",
+    "No obvious UV/texture stretching; tex paths valid; UDIMs resolve.",
+    "Heavy sims/meshes cached to disk; downstream reads from caches.",
+    "History cleaned where safe; file size reasonable to open on another machine.",
+    "Display flags / viewport LODs optimized for smooth playback.",
+    "All dependencies gathered into project folder structure (textures, caches, abc, etc.).",
+    "Final .hip saved with suffix _final (versioned and traceable).",
+    "Required exports done (EXR/MP4/ABC/FBX/etc.) and in the deliverables folder.",
+    "Scene opens cleanly on another box (no missing plugins/paths).",
+    "Final renders/playblast checked for artifacts, missing frames, or flicker."
+]
+
+# -------- Persistence helpers (userData on /obj) --------
+STATE_KEY = "finalization_checklist_state_v1"
+
+def _state_node():
+    return hou.node("/obj")
+
+def _load_state():
+    n = _state_node()
+    if not n: return {}
+    raw = n.userData(STATE_KEY)
+    if not raw: return {}
+    try:
+        return json.loads(raw)
+    except Exception:
+        return {}
+
+def _save_state(checked_indices):
+    n = _state_node()
+    if not n: return
+    n.setUserData(STATE_KEY, json.dumps({"checked": checked_indices, "time": time.time()}))
+
+# -------- Screenshot helpers --------
+def _hip_dir():
+    try:
+        return hou.expandString("$HIP")
+    except Exception:
+        return os.path.dirname(hou.hipFile.path() or os.getcwd())
+
+def _screens_dir():
+    d = os.path.join(_hip_dir(), "screenshots")
+    if not os.path.isdir(d):
+        os.makedirs(d, exist_ok=True)
+    return d
+
+def _timestamp():
+    return time.strftime("%Y%m%d_%H%M%S")
+
+def _active_view_label():
+    sv = hou.ui.paneTabOfType(hou.paneTabType.SceneViewer)
+    if not sv: return "noview"
+    vp = sv.curViewport()
+    cam = vp.camera()
+    return cam.name() if cam else vp.name()
+
+def _frame_str():
+    try:
+        return f"f{int(round(hou.frame())):04d}"
+    except Exception:
+        return "f0000"
+
+def _screenshot_viewport(custom_suffix=""):
+    """Single-frame flipbook as a JPG (viewport). Returns path or None."""
+    sv = hou.ui.paneTabOfType(hou.paneTabType.SceneViewer)
+    if not sv:
+        return None
+    vp = sv.curViewport()
+
+    base = os.path.splitext(hou.hipFile.path() or "untitled.hip")[0]
+    label = _active_view_label()
+    fname = f"{os.path.basename(base)}_{label}_{_frame_str()}_{_timestamp()}"
+    if custom_suffix: fname += f"_{custom_suffix}"
+    img_path = os.path.join(_screens_dir(), fname + ".jpg")
+
+    settings = sv.flipbookSettings().stash()
+    settings.frameRange((hou.frame(), hou.frame()))
+    settings.output(img_path)
+    settings.useResolution(True)
+    settings.resolution((1920, 1080))
+    settings.cropOutMaskOverlay(True)
+
+    try:
+        sv.flipbook(vp, settings)
+        return img_path
+    except Exception:
+        return None
+
+# -------- Path check & save-as-final --------
+def _has_absolute_paths():
+    bad = []
+    for r in ["/obj", "/stage", "/mat", "/img"]:
+        n = hou.node(r)
+        if not n: continue
+        for node in n.allSubChildren():
+            for parm in node.parms():
+                pt = parm.parmTemplate()
+                if pt.type() != hou.parmTemplateType.String: continue
+                try:
+                    val = parm.evalAsString()
+                except Exception:
+                    continue
+                if not val: continue
+                is_abs = (":/" in val or val.startswith("/") or (len(val) > 2 and val[1:3] == ":\\"))  # win/unix
+                if is_abs and "$HIP" not in val and "$JOB" not in val:
+                    bad.append(f"{node.path()} : {parm.name()} = {val}")
+                    if len(bad) > 50:
+                        bad.append("â¦ (truncated)")
+                        return bad
+    return bad
+
+def _save_as_final():
+    cur = hou.hipFile.path()
+    if not cur or cur == "untitled.hip":
+        hou.ui.displayMessage("Save your scene first.", severity=hou.severityType.Warning)
+        return None
+    if cur.lower().endswith("_final.hip"):
+        return cur
+    base, ext = os.path.splitext(cur)
+    final_path = base + "_final" + ext
+    hou.hipFile.save(file_name=final_path)
+    return final_path
+
+# -------- Dialog --------
+class FinalizationDialog(QtWidgets.QDialog):
+    def __init__(self, parent=None):
+        super(FinalizationDialog, self).__init__(parent)
+        self.setWindowTitle("Finalization Checklist")
+        self.setMinimumSize(720, 640)
+
+        title = QtWidgets.QLabel("Tick every box, take screenshots anytime, then click âMark as Finalâ.")
+        title.setWordWrap(True)
+        title.setStyleSheet("font-weight:600; margin:4px 0 10px 0;")
+
+        self.list = QtWidgets.QListWidget()
+        self.list.setWordWrap(True)
+        self.list.setAlternatingRowColors(True)
+        self.list.setSelectionMode(QtWidgets.QAbstractItemView.NoSelection)
+        self.list.setUniformItemSizes(False)
+        self.list.setSpacing(4)
+
+        for text in CHECK_ITEMS:
+            item = QtWidgets.QListWidgetItem(text)
+            item.setFlags(item.flags() | QtCore.Qt.ItemIsUserCheckable)
+            item.setCheckState(QtCore.Qt.Unchecked)
+            item.setToolTip(text)
+            self.list.addItem(item)
+
+        # Load saved state
+        saved = _load_state()
+        checked_set = set(saved.get("checked", []))
+        for i in range(self.list.count()):
+            if i in checked_set:
+                self.list.item(i).setCheckState(QtCore.Qt.Checked)
+
+        # Persist on change
+        self.list.itemChanged.connect(self._persist_now)
+
+        # Buttons
+        btn_check_all = QtWidgets.QPushButton("Check All")
+        btn_clear = QtWidgets.QPushButton("Clear")
+        btn_shot = QtWidgets.QPushButton("Screenshot")
+        btn_finalize = QtWidgets.QPushButton("Mark as Final")
+        btn_cancel = QtWidgets.QPushButton("Cancel")
+
+        # Non-modal status line
+        self.status = QtWidgets.QLabel("")
+        self.status.setWordWrap(True)
+        self.status.setStyleSheet("color:#a0a0a0; font-size:11px;")
+        self._status_timer = QtCore.QTimer(self)
+        self._status_timer.setSingleShot(True)
+        self._status_timer.timeout.connect(lambda: self.status.setText(""))
+
+        btn_row = QtWidgets.QHBoxLayout()
+        btn_row.addWidget(btn_check_all)
+        btn_row.addWidget(btn_clear)
+        btn_row.addWidget(btn_shot)
+        btn_row.addStretch(1)
+        btn_row.addWidget(btn_finalize)
+        btn_row.addWidget(btn_cancel)
+
+        layout = QtWidgets.QVBoxLayout(self)
+        layout.addWidget(title)
+        layout.addWidget(self.list, 1)
+        layout.addWidget(self.status)          # <<< inline status instead of popup
+        layout.addLayout(btn_row)
+
+        btn_check_all.clicked.connect(self._check_all)
+        btn_clear.clicked.connect(self._clear_all)
+        btn_cancel.clicked.connect(self.reject)
+        btn_shot.clicked.connect(self._on_screenshot)
+        btn_finalize.clicked.connect(self._on_finalize)
+
+    # ----- small helpers -----
+    def _notify(self, msg):
+        """Update inline status + Houdini status bar, no modal dialog."""
+        self.status.setText(msg)
+        self._status_timer.start(4500)
+        try:
+            hou.ui.setStatusMessage(msg, severity=hou.severityType.Message)
+        except Exception:
+            pass
+
+    # ----- persistence -----
+    def _collect_checked_indices(self):
+        return [i for i in range(self.list.count())
+                if self.list.item(i).checkState() == QtCore.Qt.Checked]
+
+    def _persist_now(self, *args):
+        _save_state(self._collect_checked_indices())
+
+    # ----- UI actions -----
+    def _check_all(self):
+        for i in range(self.list.count()):
+            self.list.item(i).setCheckState(QtCore.Qt.Checked)
+        self._persist_now()
+        self._notify("All items checked.")
+
+    def _clear_all(self):
+        for i in range(self.list.count()):
+            self.list.item(i).setCheckState(QtCore.Qt.Unchecked)
+        self._persist_now()
+        self._notify("All items cleared.")
+
+    def _all_checked(self):
+        return all(self.list.item(i).checkState() == QtCore.Qt.Checked
+                   for i in range(self.list.count()))
+
+    def _on_screenshot(self):
+        path = _screenshot_viewport("checkpoint")
+        if path:
+            self._notify(f"Screenshot saved: {path}")
+        else:
+            self._notify("Screenshot failed (no Scene Viewer or flipbook error).")
+
+    def _on_finalize(self):
+        if not self._all_checked():
+            ans = hou.ui.displayMessage(
+                "Not all items are checked. Still proceed?",
+                buttons=("Go Back", "Proceed"),
+                default_choice=0, close_choice=0, severity=hou.severityType.Warning
+            )
+            if ans == 0:
+                return
+
+        bad_paths = _has_absolute_paths()
+        if bad_paths:
+            sample = "\n".join(bad_paths[:3])
+            ans = hou.ui.displayMessage(
+                f"Found {len(bad_paths)} absolute paths!\n\n{sample}\n\nProceed anyway?",
+                buttons=("Fix First", "Proceed"),
+                default_choice=0, close_choice=0,
+                severity=hou.severityType.Warning
+            )
+            if ans == 0:
+                return
+
+        self._persist_now()
+        final_path = _save_as_final()
+        if final_path:
+            shot = _screenshot_viewport("final")
+            msg = f"Saved as: {final_path}"
+            if shot: msg += f"  |  Final screenshot: {shot}"
+            self._notify(msg)
+        self.accept()
+
+def show_finalization_dialog():
+    try:
+        main = hou.ui.mainQtWindow()
+    except Exception:
+        main = None
+    dlg = FinalizationDialog(parent=main)
+    dlg.exec_()
+
+# Run
+show_finalization_dialog()
+]]></script>
+  </tool>
+
+  <tool name="viewport_screenshot" label="Viewport Screenshot" icon="D:/beingVulnurable/2508_Houdini_Assets/2508_shelf_checklist/icon/camera_icon.png">
+    <script scriptType="python"><![CDATA[import hou, os
+from datetime import datetime
+
+# Get scene viewer
+desktop = hou.ui.curDesktop()
+scene_viewer = desktop.paneTabOfType(hou.paneTabType.SceneViewer)
+
+# Prepare save directory
+save_dir = hou.expandString("$HIP/screenshots")
+if not os.path.exists(save_dir):
+    os.makedirs(save_dir)
+
+# File path with timestamp
+base = os.path.splitext(hou.hipFile.path() or "untitled.hip")[0]
+timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+file_path = os.path.join(save_dir, f"{os.path.basename(base)}_{timestamp}.jpg")
+
+# Flipbook settings for single-frame screenshot
+settings = scene_viewer.flipbookSettings().stash()
+settings.frameRange((hou.frame(), hou.frame()))  # current frame only
+settings.output(file_path)
+settings.useResolution(True)
+settings.resolution((1920, 1080))  # Change resolution here
+
+# Take the screenshot
+scene_viewer.flipbook(scene_viewer.curViewport(), settings)
+
+hou.ui.displayMessage(f"Screenshot saved:\n{file_path}")]]></script>
+  </tool>
+
+  <tool name="sop_constraintnetwork" label="Constraints Network" icon="SOP_constraintnetwork">
+    <helpURL>tool:sop_constraintnetwork</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Managers</toolSubmenu>
+    <script scriptType="python"><![CDATA[#import soptoolutils
+#soptoolutils.genericTool(kwargs, 'constraintnetwork')
+import objecttoolutils
+objecttoolutils.constraintnetworkStateToolApply(kwargs)]]></script>
+  </tool>
+
+  <tool name="sop_spiral" label="Spiral" icon="SOP_spiral">
+    <helpURL>operator:Sop/spiral</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+      <contextNetType>LOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+      <contextNetType>LOP</contextNetType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Curves</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+from soptoolutils import OrientInfo
+turns = 3
+rad0 = 0.125
+rad1 = 1.0
+rad = max(rad0, rad1)
+height = 0
+if hou.ui.orientationUpAxis() == hou.orientUpAxis.Z:
+    kwargs['bbox'] = hou.BoundingBox(-rad, -rad, 0, rad, rad, height)
+else:
+    kwargs['bbox'] = hou.BoundingBox(-rad, 0, -rad, rad, height, rad)
+kwargs['parms'] = {
+    'turns': turns,
+    'height': height,
+    'startradius': rad0,
+    'radiusincreaseperturn': (rad1-rad0)/turns
+    }
+soptoolutils.genericTool(kwargs, 'spiral', orient=OrientInfo('orient'))]]></script>
+  </tool>
+
+  <tool name="sop_revolve::2.0" label="Revolve" icon="SOP_revolve">
+    <helpURL>operator:Sop/revolve?version=2.0</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/revolve::2.0</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Polygons/Topology</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.genericTool(kwargs, 'revolve::2.0')]]></script>
+  </tool>
+
+  <tool name="sop_pointweld" label="Point Weld" icon="SOP_pointweld">
+    <helpURL>operator:Sop/pointweld</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/pointweld</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Points</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.genericTool(kwargs, 'pointweld')]]></script>
+  </tool>
+
+  <tool name="sop_clusterpoints" label="Cluster Points" icon="SOP_clusterpoints">
+    <helpURL>operator:Sop/clusterpoints</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/clusterpoints</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Points</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+
+soptoolutils.genericTool(kwargs, 'clusterpoints')]]></script>
+  </tool>
+
+  <tool name="sop_curve::2.0_polygon" label="Curve Polygon" icon="SOP_curve">
+    <helpURL>operator:Sop/curve</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/curve::2.0</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Curves</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+import toolutils
+
+scene_viewer = toolutils.activePane(kwargs)
+cwd = scene_viewer.pwd()
+if (scene_viewer.type() == hou.paneTabType.SceneViewer):
+    if (cwd.childTypeCategory() == hou.sopNodeTypeCategory()
+        and scene_viewer.isCreateInContext()): # Sop create in context
+        # Handle this case specially to have specialized behaviour for putting
+        # down a curve generator that is different than other generators
+        # since we DO NOT want to choose an initial position.
+        geotypes = [hou.geometryType.Primitives]
+        current_node = scene_viewer.currentNode()
+        if current_node and isinstance(current_node, hou.SopNode):
+            current_node.setSelectableTemplateFlag(True)
+        node = cwd.createNode('curve::2.0')
+        node.moveToGoodPosition()
+        node.setDisplayFlag(True)
+        node.setCurrent(True, True)
+        scene_viewer.enterCurrentNodeState()
+    else:
+        node = soptoolutils.genericTool(kwargs, 'curve::2.0')
+        node.setDisplayFlag(True)
+        node.setCurrent(True, True)
+else: # Network viewer or Object viewer
+    node = soptoolutils.genericTool(kwargs, 'curve::2.0')
+
+if node:
+    outputtype_parm = node.parm('outputtype')
+    if outputtype_parm:
+        outputtype_parm.set(0)
+   ]]></script>
+  </tool>
+
+  <tool name="sop_curve::2.0_bezier" label="Curve Bezier" icon="SOP_curve">
+    <helpURL>operator:Sop/curve</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>OBJ</contextNetType>
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/curve::2.0</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Curves</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+import toolutils
+
+scene_viewer = toolutils.activePane(kwargs)
+cwd = scene_viewer.pwd()
+if (scene_viewer.type() == hou.paneTabType.SceneViewer):
+    if (cwd.childTypeCategory() == hou.sopNodeTypeCategory()
+        and scene_viewer.isCreateInContext()): # Sop create in context
+        # Handle this case specially to have specialized behaviour for putting
+        # down a curve generator that is different than other generators
+        # since we DO NOT want to choose an initial position.
+        geotypes = [hou.geometryType.Primitives]
+        current_node = scene_viewer.currentNode()
+        if current_node and isinstance(current_node, hou.SopNode):
+            current_node.setSelectableTemplateFlag(True)
+        node = cwd.createNode('curve::2.0')
+        node.moveToGoodPosition()
+        node.setDisplayFlag(True)
+        node.setCurrent(True, True)
+        scene_viewer.enterCurrentNodeState()
+    else:
+        node = soptoolutils.genericTool(kwargs, 'curve::2.0')
+        node.setDisplayFlag(True)
+        node.setCurrent(True, True)
+else: # Network viewer or Object viewer
+    node = soptoolutils.genericTool(kwargs, 'curve::2.0')
+    ]]></script>
+  </tool>
+
+  <tool name="sop_polyhinge" label="PolyHinge" icon="SOP_polyhinge">
+    <helpURL>operator:Sop/polyhinge</helpURL>
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/polyhinge</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Geometry/Polygons</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+import stateutils
+import toolutils
+from sidefx_polyhinge import getPivot
+
+pane = toolutils.activePane(kwargs)
+if pane.type() == hou.paneTabType.SceneViewer:
+    faces = stateutils.Selector(
+        name = "select_polys",
+        geometry_types=[hou.geometryType.Primitives],
+        prompt="Select primitives to hinge and press Enter to continue.",
+        group_parm_name="group",
+        input_index=0,
+        input_required=True)
+    edges = stateutils.Selector(
+        name="select_edges",
+        geometry_types=[hou.geometryType.Edges],
+        prompt="Now select the edge to pivot around and press Enter to complete.",
+        group_parm_name="hingeedge",
+        input_index=0,
+        input_required=False)
+        
+    container, selections, selectednode = soptoolutils.getGeometrySelections(
+        pane, [faces, edges], allow_obj_selection=False
+    )
+    
+    node = stateutils.createFilterSop(
+        kwargs, "polyhinge", container, selections
+    )
+    
+    if node:
+        if len(selections) <= 1:
+            node.parm("pivotmode").set("posanddir")
+        else:
+            pivot_results = getPivot(node)
+            if pivot_results is not None:
+                node.parmTuple("hingepivotpos").set(pivot_results["pivot"])
+                node.parmTuple("hingepivotdir").set(pivot_results["pivot_dir"])
+    
+    pane.enterCurrentNodeState()
+else:
+    soptoolutils.genericTool(kwargs, "polyhinge")]]></script>
+  </tool>
+
+  <tool name="sop_sculpt::2.0" label="Sculpt" icon="SOP_sculpt">
+    <toolMenuContext name="viewer">
+      <contextNetType>SOP</contextNetType>
+    </toolMenuContext>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/sculpt::2.0</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Deform</toolSubmenu>
+    <script scriptType="python"><![CDATA[import soptoolutils
+soptoolutils.genericTool(kwargs, 'sculpt::2.0')
+]]></script>
+  </tool>
+
+  <tool name="sop_maya_mayahardedge_to_group" label="Convert Maya Hard Edge to Group" icon="SOP_edgecusp">
+    <helpURL>tool:sop_maya_mayahardedge_to_group</helpURL>
+    <toolSubmenu>Utility/Houdini Engine</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import houdiniengineutils
+houdiniengineutils.sopMayaHardEdgeToGroup(kwargs)]]></script>
+  </tool>
+
+  <tool name="sop_maya_mayahardedge_to_attribute" label="Convert Maya Hard Edge to Attribute" icon="SOP_edgecusp">
+    <helpURL>tool:sop_maya_mayahardedge_to_attribute</helpURL>
+    <toolSubmenu>Utility/Houdini Engine</toolSubmenu>
+    <script scriptType="python"><![CDATA[
+import houdiniengineutils
+houdiniengineutils.sopMayaHardEdgeToAttribute(kwargs)]]></script>
+  </tool>
+
+  <tool name="sop_unreal_material" label="Unreal Material" icon="SOP_material">
+    <helpURL>tool:sop_unreal_material</helpURL>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/attribcreate::2.0</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Utility/Houdini Engine</toolSubmenu>
+    <script scriptType="python"><![CDATA[import houdiniengineutils
+houdiniengineutils.sopUnrealMaterial(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="sop_unity_material" label="Unity Material" icon="SOP_material">
+    <helpURL>tool:sop_unity_material</helpURL>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/attribcreate::2.0</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Utility/Houdini Engine</toolSubmenu>
+    <script scriptType="python"><![CDATA[import houdiniengineutils
+houdiniengineutils.sopUnityMaterial(kwargs)
+]]></script>
+  </tool>
+
+  <tool name="sop_collision_geo" label="Game Engine Collision" icon="SOP_subdivide">
+    <helpURL>tool:sop_collision_geo</helpURL>
+    <toolMenuContext name="network">
+      <contextOpType>Sop/groupcreate</contextOpType>
+    </toolMenuContext>
+    <toolSubmenu>Utility/Houdini Engine</toolSubmenu>
+    <script scriptType="python"><![CDATA[import houdiniengineutils
+houdiniengineutils.sopCollisionGeo(kwargs)
+]]></script>
+  </tool>
+</shelfDocument>
