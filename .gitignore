@@ -1,24 +1,42 @@
-# OS / editor
+# OS/editor junk
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
+.vs/
+*.log
+*.bak
+*.backup
 
-# Python cache
+# Python
 __pycache__/
 *.pyc
 
-# Houdini / caches / junk
+# Houdini caches / temps / large intermediates
 *.lock
 *.tmp
+*.hiplc~*
+*.hipnc~*
 *.hip~*
 *.backup
 *.bgeo.sc
 *.sim
+*.lock
 *.pic
 *.rat
+*.sim
+*.ifd
+*.exr
+*.bgeo
+*.bgeo.sc
+*.tmp
+cache/
+temp/
 *.ipr
 
-# Build/zip artifacts
+# Build/output
 dist/
-*.zip
+build/
+
+# Node/Docs (if you ever add docs site)
+node_modules/
