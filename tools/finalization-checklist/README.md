@@ -13,7 +13,7 @@
 ## Install
 **Option A — via .shelf**
 1. Copy `src/finalization-checklist.shelf` to your Houdini shelves folder:  
-   - Windows: `%USERPROFILE%\Documents\Houdini20.5\toolbar\`
+   - Windows: `%USERPROFILE%\Documents\HoudiniXX.X\toolbar\`
 2. In Houdini: *Shelves* → *New Shelf* → *Load* (or restart Houdini) → add the tool button.
 
 **Option B — manual script**

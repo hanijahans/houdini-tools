@@ -13,16 +13,12 @@
 - When run, prompts you to select a resolution (default: 1920×1080) or enter a custom size.
 - Works with the current frame only (fast capture)
 
-## Compatibility
-- **Houdini:** 19.5+ (tested)
-- **OS:** Windows, Linux, macOS
-
 ## Install
 **Option A — via `.shelf` (recommended)**
 1. Copy `./src/ViewportScreenshot.shelf` to your Houdini shelves folder:
-   - **Windows:** `%USERPROFILE%\Documents\Houdini19.5\toolbar\`
-   - **Linux:** `~/houdini19.5/toolbar/`
-   - **macOS:** `~/Library/Preferences/Houdini/19.5/toolbar/`
+   - **Windows:** `%USERPROFILE%\Documents\HoudiniXX.X\toolbar\`
+   - **Linux:** `~/houdiniXX.X/toolbar/`
+   - **macOS:** `~/Library/Preferences/Houdini/XX.X/toolbar/`
 2. Restart Houdini or load the shelf manually.
 3. Add **Viewport Screenshot** button to a shelf.
 
